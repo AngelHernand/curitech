@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CuriTech — Consultoría Especializada en .NET</title>
+<meta name="description" content="CuriTech — Consultoría en TI especializada en el ecosistema Microsoft .NET. Soporte, mantenimiento y evolución de aplicaciones críticas con un marco completo de gobierno de TI (COBIT 2019, ITIL, ISO 27000, ISO 22301)." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="nav__inner">
+    <a href="#inicio" class="brand"><span class="brand__mark"></span>Curi<span>Tech</span></a>
+    <nav class="nav__links" aria-label="Secciones">
+      <a href="#inicio"><span class="n">01</span>Inicio</a>
+      <a href="#introduccion"><span class="n">02</span>Introducción</a>
+      <a href="#objetivo"><span class="n">03</span>Objetivo</a>
+      <a href="#servicio"><span class="n">04</span>Servicio</a>
+      <a href="#mvv"><span class="n">05</span>M·V·V</a>
+      <a href="#metas-corp"><span class="n">06</span>Metas Corp.</a>
+      <a href="#metas-it"><span class="n">07</span>Metas IT</a>
+      <a href="#cascada"><span class="n">08</span>Cascada</a>
+      <a href="#mapas"><span class="n">09</span>Mapas</a>
+      <a href="#caso"><span class="n">10</span>Caso</a>
+      <a href="#cedula"><span class="n">11</span>Cédula</a>
+      <a href="#activos"><span class="n">12</span>Activos</a>
+      <a href="#riesgos"><span class="n">13</span>Riesgos</a>
+      <a href="#bia-tactico"><span class="n">14</span>BIA Táctico</a>
+      <a href="#bia-operacional"><span class="n">15</span>BIA Oper.</a>
+      <a href="#continuidad"><span class="n">16</span>Continuidad</a>
+    </nav>
+    <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ============ DRAWER (mobile) ============ -->
+<nav class="drawer" aria-label="Menú móvil">
+  <a href="#inicio"><span class="n">01</span>Inicio</a>
+  <a href="#introduccion"><span class="n">02</span>Introducción</a>
+  <a href="#objetivo"><span class="n">03</span>Objetivo del Servicio</a>
+  <a href="#servicio"><span class="n">04</span>Descripción del Servicio</a>
+  <a href="#mvv"><span class="n">05</span>Misión, Visión y Valores</a>
+  <a href="#metas-corp"><span class="n">06</span>Metas Corporativas</a>
+  <a href="#metas-it"><span class="n">07</span>Metas de IT</a>
+  <a href="#cascada"><span class="n">08</span>Cascada de Metas</a>
+  <a href="#mapas"><span class="n">09</span>Mapas Estratégicos</a>
+  <a href="#caso"><span class="n">10</span>Caso de Negocio</a>
+  <a href="#cedula"><span class="n">11</span>Cédula de Servicio</a>
+  <a href="#activos"><span class="n">12</span>Inventario de Activos</a>
+  <a href="#riesgos"><span class="n">13</span>Matriz de Riesgos</a>
+  <a href="#bia-tactico"><span class="n">14</span>BIA Táctico</a>
+  <a href="#bia-operacional"><span class="n">15</span>BIA Operacional</a>
+  <a href="#continuidad"><span class="n">16</span>Plan de Continuidad</a>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio" data-screen-label="Inicio">
+  <div class="hero__inner">
+    <span class="hero__eyebrow"><span class="dot"></span>Consultoría en TI · Microsoft .NET</span>
+    <h1>Curi<b>Tech</b></h1>
+    <p class="hero__tagline">Consultoría especializada en .NET</p>
+    <p class="hero__sub">Soporte, mantenimiento y evolución de aplicaciones críticas sobre la plataforma Microsoft .NET, bajo un marco completo de gobierno de TI: COBIT 2019, ITIL, ISO 27000 e ISO 22301.</p>
+    <div class="hero__cta">
+      <a href="#introduccion" class="btn btn--primary">Conocer el servicio <span class="arr">↓</span></a>
+      <a href="#caso" class="btn btn--ghost">Ver caso de negocio</a>
+    </div>
+    <div class="hero__meta">
+      <div class="stat"><div class="k">.NET 8+</div><div class="l">Stack de modernización</div></div>
+      <div class="stat"><div class="k">≥ 99%</div><div class="l">Disponibilidad objetivo</div></div>
+      <div class="stat"><div class="k">≤ 4 hrs</div><div class="l">SLA incidentes críticos</div></div>
+      <div class="stat"><div class="k">$282K</div><div class="l">MXN / mes · equipo dedicado</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 · INTRODUCCIÓN ============ -->
+<section class="section" id="introduccion" data-screen-label="Introducción">
+  <div class="container container--narrow">
+    <div class="shead">
+      <span class="shead__num">02 — Introducción</span>
+      <h2>Continuidad y evolución del ecosistema .NET</h2>
+    </div>
+    <div class="prose">
+      <p class="lead">CuriTech es una empresa mexicana de consultoría en Tecnologías de la Información especializada en el ecosistema Microsoft .NET. Nuestro servicio integral abarca el soporte, mantenimiento y evolución de aplicaciones críticas construidas sobre la plataforma .NET, atendiendo a organizaciones cuya operación depende de sistemas desarrollados en este stack tecnológico.</p>
+      <p>En un entorno donde las aplicaciones empresariales crecen en complejidad y la deuda técnica se acumula, CuriTech ofrece un equipo especializado que garantiza la continuidad operativa, moderniza el portafolio tecnológico y agiliza la operación del cliente mediante soluciones basadas en .NET.</p>
+      <p>Este documento integra el marco completo de gobierno de TI del servicio: desde las metas corporativas y de IT alineadas a <strong>COBIT 2019</strong>, el caso de negocio, la cédula de servicio bajo <strong>ITIL</strong>, el inventario de activos, la matriz de riesgos conforme a <strong>ISO 27000</strong>, hasta los análisis de impacto al negocio (BIA) y el plan de continuidad bajo <strong>ISO 22301</strong>.</p>
+      <p>El conjunto refleja un enfoque maduro de gestión que equilibra la entrega técnica con la gobernanza, la gestión de riesgos y la resiliencia operativa, asegurando que el servicio no solo resuelva incidentes, sino que aporte valor estratégico sostenible a las organizaciones que confían su operación a CuriTech.</p>
+    </div>
+    <div class="note">
+      <i class="ni">i</i>
+      <div>Entregable integrador del proyecto de <b>IT Governance</b> — ESCOM-IPN, grupo 7CV4. Reúne los marcos COBIT 2019, ITIL, ISO/IEC 27000 e ISO 22301 aplicados a un servicio real de consultoría .NET.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 · OBJETIVO ============ -->
+<section class="section section--soft" id="objetivo" data-screen-label="Objetivo del Servicio">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">03 — Objetivo del Servicio de IT</span>
+      <h2>Garantizar continuidad, estabilidad, seguridad y evolución</h2>
+    </div>
+    <div class="split">
+      <div class="prose">
+        <p class="lead">Proveer un servicio integral de consultoría especializada en tecnologías .NET que garantice la continuidad operativa, estabilidad, seguridad y evolución del portafolio de aplicaciones del cliente, contribuyendo a la eficiencia operativa y a la alineación tecnológica con los objetivos estratégicos de la organización.</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h4>Objetivos específicos</h4>
+          <ul class="flist flist--check" style="margin-top:14px">
+            <li>Reducir el tiempo de resolución de incidentes críticos al menos <strong>30%</strong> en el primer semestre.</li>
+            <li>Mantener una disponibilidad del <strong>99%</strong> en aplicaciones críticas.</li>
+            <li>Reducir <strong>40%</strong> los incidentes recurrentes con mantenimiento preventivo.</li>
+            <li>Documentar el <strong>100%</strong> de las aplicaciones críticas.</li>
+            <li>Ejecutar al menos <strong>una migración</strong> tecnológica significativa por trimestre.</li>
+            <li>Automatizar al menos <strong>3 procesos</strong> operativos clave durante el contrato.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 · DESCRIPCIÓN DEL SERVICIO ============ -->
+<section class="section" id="servicio" data-screen-label="Descripción del Servicio">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">04 — Descripción del Servicio</span>
+      <h2>Soporte, mantenimiento y evolución de aplicaciones .NET</h2>
+      <p>Servicio de consultoría especializada que abarca la atención de incidentes L2/L3, el mantenimiento del portafolio, la migración tecnológica y el desarrollo de nuevas funcionalidades sobre el stack de Microsoft.</p>
+    </div>
+    <div class="cards grid-3">
+      <div class="card card--hover">
+        <div class="card__ico">SP</div>
+        <h3>Soporte técnico L2/L3</h3>
+        <p>Atención y resolución de incidentes en aplicaciones .NET en ambientes de desarrollo, pruebas y producción, bajo esquema de niveles de servicio (SLA) acordados.</p>
+      </div>
+      <div class="card card--hover">
+        <div class="card__ico">MN</div>
+        <h3>Mantenimiento</h3>
+        <p>Mantenimiento correctivo, preventivo y adaptativo: corrección de defectos, optimización de consultas SQL, monitoreo proactivo y ajustes por cambios del entorno operativo.</p>
+      </div>
+      <div class="card card--hover">
+        <div class="card__ico">MG</div>
+        <h3>Migración tecnológica</h3>
+        <p>Migración de aplicaciones de .NET Framework a .NET 8+, actualización de paquetes NuGet y dependencias, e implementación de estándares de seguridad y codificación.</p>
+      </div>
+      <div class="card card--hover">
+        <div class="card__ico">DV</div>
+        <h3>Nuevas funcionalidades</h3>
+        <p>Análisis, diseño, desarrollo y pruebas de nuevos módulos; integración con sistemas vía APIs REST/SOAP; reportes, dashboards y herramientas de automatización.</p>
+      </div>
+      <div class="card card--hover">
+        <div class="card__ico">AU</div>
+        <h3>Automatización</h3>
+        <p>Automatización de procesos operativos manuales o semi-automatizados mediante soluciones .NET, reduciendo tiempos de ejecución, errores y costos operativos.</p>
+      </div>
+      <div class="card card--hover">
+        <div class="card__ico">IN</div>
+        <h3>Soporte a infraestructura</h3>
+        <p>Soporte a infraestructura de servidores IIS, SQL Server y servicios Windows asociados, con acompañamiento en decisiones tecnológicas y arquitectura de soluciones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 · MISIÓN, VISIÓN Y VALORES ============ -->
+<section class="section section--soft" id="mvv" data-screen-label="Misión, Visión y Valores">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">05 — Misión, Visión y Valores</span>
+      <h2>El núcleo de cómo trabajamos</h2>
+    </div>
+    <div class="cards grid-2" style="margin-bottom:22px">
+      <div class="card card--mvv card--hover">
+        <div class="label">Misión</div>
+        <p style="font-size:1.08rem;color:#3c424b">Impulsar la continuidad y evolución tecnológica de nuestros clientes mediante consultoría especializada en .NET de alto valor, transformando aplicaciones críticas en activos confiables, seguros y modernos que sostengan y potencien su operación.</p>
+      </div>
+      <div class="card card--mvv card--hover">
+        <div class="label">Visión</div>
+        <p style="font-size:1.08rem;color:#3c424b">Ser la firma de consultoría .NET de referencia en México, reconocida por la excelencia técnica, la confiabilidad de su servicio y su capacidad de convertir la deuda tecnológica de las organizaciones en ventaja competitiva.</p>
+      </div>
+    </div>
+    <div class="card card--mvv">
+      <div class="label">Valores</div>
+      <div class="valores" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));display:grid">
+        <div class="valor"><span class="valor__n">01</span><div><strong>Excelencia técnica</strong><span>Dominio profundo del ecosistema .NET y compromiso con las mejores prácticas.</span></div></div>
+        <div class="valor"><span class="valor__n">02</span><div><strong>Confiabilidad</strong><span>Cumplimiento de los SLA y resguardo de la información del cliente.</span></div></div>
+        <div class="valor"><span class="valor__n">03</span><div><strong>Transparencia</strong><span>Comunicación clara y honesta en cada etapa del servicio.</span></div></div>
+        <div class="valor"><span class="valor__n">04</span><div><strong>Mejora continua</strong><span>Aprendizaje constante y evolución de procesos y personas.</span></div></div>
+        <div class="valor"><span class="valor__n">05</span><div><strong>Compromiso</strong><span>Involucramiento real con la operación y los objetivos del cliente.</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 · METAS CORPORATIVAS ============ -->
+<section class="section" id="metas-corp" data-screen-label="Metas Corporativas">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">06 — Metas Corporativas · COBIT 2019 / BSC</span>
+      <h2>Una meta por dimensión del Balanced Scorecard</h2>
+      <p>Las metas corporativas de CuriTech se definen con base en COBIT 2019, mapeando una meta por cada dimensión del BSC. Cada meta se vincula a una <strong>Enterprise Goal (EG)</strong> específica de COBIT.</p>
+      <a class="doc-btn" href="docs/Metas_Corporativas_IT_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+    <p class="tscroll-hint">→ Desliza la tabla horizontalmente para ver todo el contenido.</p>
+    <div class="twrap">
+      <table class="dt" style="min-width:760px">
+        <thead>
+          <tr>
+            <th style="width:160px">Dimensión BSC</th>
+            <th style="width:230px">Referencia COBIT 2019</th>
+            <th>Meta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="strong">Financiera</td>
+            <td><span class="badge b-navy">EG01</span><div style="margin-top:7px;color:var(--muted);font-size:13.5px">Portafolio de productos y servicios competitivos</div></td>
+            <td>Alcanzar un <strong>margen de utilidad neta del 20%</strong> al cierre del segundo año fiscal, consolidando el portafolio de servicios de consultoría .NET de CuriTech como una oferta competitiva y rentable en el mercado de TI mexicano.</td>
+          </tr>
+          <tr>
+            <td class="strong">Cliente / Usuario</td>
+            <td><span class="badge b-navy">EG05</span><div style="margin-top:7px;color:var(--muted);font-size:13.5px">Cultura de servicio centrada en el cliente</div></td>
+            <td>Lograr un índice de satisfacción del cliente <strong>(CSAT) ≥ 85%</strong>, garantizando tiempos de respuesta menores a 24 horas en soporte técnico y alcanzando una tasa de retención de clientes del 85% anual.</td>
+          </tr>
+          <tr>
+            <td class="strong">Interno / Procesos</td>
+            <td><span class="badge b-navy">EG08</span><div style="margin-top:7px;color:var(--muted);font-size:13.5px">Optimización de la funcionalidad de procesos de negocio</div></td>
+            <td>Estandarizar y documentar el <strong>100% de los procesos operativos</strong> de CuriTech (soporte, mantenimiento, modernización), reduciendo el tiempo promedio de entrega de soluciones en un 30% mediante metodologías ágiles y automatización.</td>
+          </tr>
+          <tr>
+            <td class="strong">Aprendizaje y Crecimiento</td>
+            <td><span class="badge b-navy">EG13</span><div style="margin-top:7px;color:var(--muted);font-size:13.5px">Innovación de productos y negocios</div></td>
+            <td>Asegurar que el 100% del equipo técnico complete al menos <strong>2 certificaciones relevantes al año</strong> (Azure, .NET, seguridad) y establecer un programa de mentoría que reduzca la curva de aprendizaje de nuevos integrantes a menos de 4 semanas.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="tnote">Las referencias EG corresponden a las Enterprise Goals definidas en COBIT 2019: EG01 (competitividad del portafolio), EG05 (orientación al cliente), EG08 (eficiencia de procesos internos) y EG13 (capacidad de innovación).</p>
+  </div>
+</section>
+
+<!-- ============ 07 · METAS DE IT ============ -->
+<section class="section section--soft" id="metas-it" data-screen-label="Metas de IT">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">07 — Metas de IT · COBIT 2019 / BSC</span>
+      <h2>Cómo el área de TI habilita el negocio</h2>
+      <p>Las metas de IT se derivan de las corporativas y se alinean a los <strong>Alignment Goals (AG)</strong> de COBIT 2019, aplicados al contexto del servicio de consultoría .NET.</p>
+      <a class="doc-btn" href="docs/Metas_Corporativas_IT_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+    <p class="tscroll-hint">→ Desliza la tabla horizontalmente para ver todo el contenido.</p>
+    <div class="twrap">
+      <table class="dt" style="min-width:760px">
+        <thead>
+          <tr>
+            <th style="width:160px">Dimensión BSC</th>
+            <th style="width:230px">Referencia COBIT 2019</th>
+            <th>Meta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="strong">Financiera</td>
+            <td><span class="badge b-blue">AG03</span><div style="margin-top:7px;color:var(--muted);font-size:13.5px">Beneficios realizados del portafolio de inversiones y servicios de I&amp;T</div></td>
+            <td>Optimizar el presupuesto de infraestructura tecnológica en un <strong>15% anual</strong> mediante migración a servicios cloud bajo modelo pay-as-you-go, y reducir el costo por incidente crítico en un 30% a través de monitoreo preventivo.</td>
+          </tr>
+          <tr>
+            <td class="strong">Cliente / Usuario</td>
+            <td><span class="badge b-blue">AG05</span><div style="margin-top:7px;color:var(--muted);font-size:13.5px">Entrega de servicios de I&amp;T en línea con los requerimientos del negocio</div></td>
+            <td>Reducir el <strong>MTTR a &lt; 4 horas</strong> para críticos y &lt; 24 horas para generales, garantizando una disponibilidad de sistemas críticos del 99.5% y un CSAT de usuarios internos ≥ 85%.</td>
+          </tr>
+          <tr>
+            <td class="strong">Interno / Procesos</td>
+            <td><span class="badge b-blue">AG06</span><div style="margin-top:7px;color:var(--muted);font-size:13.5px">Agilidad para convertir requerimientos de negocio en soluciones operativas</div></td>
+            <td>Estandarizar la gestión de cambios bajo ITIL para el <strong>100% de modificaciones</strong> en infraestructura, automatizar tareas operativas repetitivas ahorrando al menos 40 horas/mes, y cubrir el 100% de servidores y servicios con monitoreo integral.</td>
+          </tr>
+          <tr>
+            <td class="strong">Aprendizaje y Crecimiento</td>
+            <td><span class="badge b-blue">AG12</span><div style="margin-top:7px;color:var(--muted);font-size:13.5px">Personal de I&amp;T competente y motivado</div></td>
+            <td>Asegurar que el 100% del equipo de IT obtenga al menos <strong>1 certificación relevante al año</strong> (Azure, AWS, CompTIA Security+), desarrollar dominio en automatización e IaC en el 80% del equipo y mantener sesiones de knowledge sharing quincenales.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="tnote">Las referencias AG corresponden a los Alignment Goals (antes IT-Related Goals) de COBIT 2019: AG03 asegura el retorno de inversión en TI, AG05 la alineación de servicios con el negocio, AG06 la agilidad operativa y AG12 la competencia del talento técnico.</p>
+  </div>
+</section>
+
+<!-- ============ 08 · CASCADA DE METAS ============ -->
+<section class="section" id="cascada" data-screen-label="Cascada de Metas">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">08 — Cascada de Metas · COBIT 2019</span>
+      <h2>Relaciones primarias y secundarias</h2>
+      <p>Mapeo de las metas contra los tres objetivos de gobierno de TI. <strong>P (Primaria)</strong> indica contribución directa; <strong>S (Secundaria)</strong>, contribución indirecta.</p>
+      <a class="doc-btn" href="docs/Cascada_Metas_COBIT_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>Cascada de Metas Corporativas (Enterprise Goals)</h3>
+      <div class="twrap">
+        <table class="dt" style="min-width:720px">
+          <thead>
+            <tr>
+              <th style="width:150px">Dimensión</th>
+              <th>Meta (Objetivo)</th>
+              <th class="center" style="width:120px">Obtener Beneficios</th>
+              <th class="center" style="width:120px">Optimizar Riesgos</th>
+              <th class="center" style="width:120px">Optimizar Recursos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="strong">Financiera</td>
+              <td><strong>EG01</strong> — Margen de utilidad neta del 20% con portafolio competitivo de servicios .NET</td>
+              <td class="ps ps-P">P</td><td class="center b-na">—</td><td class="ps ps-S">S</td>
+            </tr>
+            <tr>
+              <td class="strong">Cliente / Usuario</td>
+              <td><strong>EG05</strong> — Satisfacción del cliente ≥ 85%, retención del 85% anual, respuesta &lt; 24 hrs</td>
+              <td class="ps ps-P">P</td><td class="ps ps-S">S</td><td class="ps ps-S">S</td>
+            </tr>
+            <tr>
+              <td class="strong">Interno / Procesos</td>
+              <td><strong>EG08</strong> — Estandarizar y documentar el 100% de los procesos operativos</td>
+              <td class="ps ps-S">S</td><td class="ps ps-S">S</td><td class="ps ps-P">P</td>
+            </tr>
+            <tr>
+              <td class="strong">Aprendizaje y Crecimiento</td>
+              <td><strong>EG13</strong> — 2 certificaciones/año por miembro, mentoría, curva de aprendizaje &lt; 4 semanas</td>
+              <td class="ps ps-S">S</td><td class="center b-na">—</td><td class="ps ps-P">P</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>Cascada de Metas de IT (Alignment Goals)</h3>
+      <div class="twrap">
+        <table class="dt" style="min-width:720px">
+          <thead>
+            <tr>
+              <th style="width:150px">Dimensión</th>
+              <th>Meta (Objetivo)</th>
+              <th class="center" style="width:120px">Obtener Beneficios</th>
+              <th class="center" style="width:120px">Optimizar Riesgos</th>
+              <th class="center" style="width:120px">Optimizar Recursos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="strong">Financiera</td>
+              <td><strong>AG03</strong> — Optimizar presupuesto de infraestructura −15% (cloud), reducir costo por incidente −30%</td>
+              <td class="ps ps-P">P</td><td class="center b-na">—</td><td class="ps ps-S">S</td>
+            </tr>
+            <tr>
+              <td class="strong">Cliente / Usuario</td>
+              <td><strong>AG05</strong> — MTTR &lt; 4 hrs (críticos), disponibilidad ≥ 99.5%, CSAT usuarios internos ≥ 85%</td>
+              <td class="ps ps-P">P</td><td class="ps ps-S">S</td><td class="ps ps-S">S</td>
+            </tr>
+            <tr>
+              <td class="strong">Interno / Procesos</td>
+              <td><strong>AG06</strong> — Gestión de cambios ITIL 100%, automatizar −40 hrs/mes, monitoreo integral 100%</td>
+              <td class="center b-na">—</td><td class="ps ps-P">P</td><td class="ps ps-P">P</td>
+            </tr>
+            <tr>
+              <td class="strong">Aprendizaje y Crecimiento</td>
+              <td><strong>AG12</strong> — 1 certificación/año, 80% dominio IaC, knowledge sharing quincenal, rotación &lt; 10%</td>
+              <td class="ps ps-S">S</td><td class="center b-na">—</td><td class="ps ps-P">P</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>Mapeo cruzado: Metas Corporativas → Metas de IT</h3>
+      <div class="twrap">
+        <table class="dt" style="min-width:720px">
+          <thead>
+            <tr>
+              <th style="width:280px">EG → AG</th>
+              <th class="center">AG03<br><span style="font-weight:400;font-size:11px;opacity:.8">Beneficios inversión TI</span></th>
+              <th class="center">AG05<br><span style="font-weight:400;font-size:11px;opacity:.8">Servicios alineados</span></th>
+              <th class="center">AG06<br><span style="font-weight:400;font-size:11px;opacity:.8">Agilidad operativa</span></th>
+              <th class="center">AG12<br><span style="font-weight:400;font-size:11px;opacity:.8">Personal competente</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>EG01</strong> — Portafolio competitivo <span style="color:var(--faint)">(Financiera)</span></td>
+              <td class="ps ps-P">P</td><td class="ps ps-S">S</td><td class="center b-na">—</td><td class="ps ps-S">S</td>
+            </tr>
+            <tr>
+              <td><strong>EG05</strong> — Cultura de servicio al cliente <span style="color:var(--faint)">(Cliente)</span></td>
+              <td class="ps ps-S">S</td><td class="ps ps-P">P</td><td class="ps ps-S">S</td><td class="ps ps-S">S</td>
+            </tr>
+            <tr>
+              <td><strong>EG08</strong> — Optimización de procesos <span style="color:var(--faint)">(Interna)</span></td>
+              <td class="ps ps-S">S</td><td class="ps ps-S">S</td><td class="ps ps-P">P</td><td class="ps ps-S">S</td>
+            </tr>
+            <tr>
+              <td><strong>EG13</strong> — Innovación <span style="color:var(--faint)">(Aprendizaje)</span></td>
+              <td class="center b-na">—</td><td class="ps ps-S">S</td><td class="ps ps-S">S</td><td class="ps ps-P">P</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="legend">
+        <span class="li"><span class="sw ps-P" style="display:grid;place-items:center;color:#fff;font-weight:800;font-size:10px">P</span> Relación primaria — contribución directa</span>
+        <span class="li"><span class="sw ps-S" style="display:grid;place-items:center;font-weight:800;font-size:10px">S</span> Relación secundaria — contribución indirecta</span>
+      </div>
+      <p class="tnote">Las relaciones primarias en la diagonal confirman que cada meta corporativa tiene un habilitador de IT principal directo; las secundarias fuera de la diagonal muestran interdependencias transversales esperadas en un servicio de consultoría.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 09 · MAPAS ESTRATÉGICOS ============ -->
+<section class="section section--soft" id="mapas" data-screen-label="Mapas Estratégicos">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">09 — Mapas Estratégicos · Balanced Scorecard</span>
+      <h2>Relación causa-efecto entre perspectivas</h2>
+      <p>Los mapas estratégicos muestran cómo las capacidades de aprendizaje habilitan procesos internos eficientes, que generan valor para el cliente y se traducen en resultados financieros sostenibles.</p>
+      <a class="doc-btn" href="docs/Mapas_Estrategicos_BSC_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="block">
+      <div class="bsc__cap">
+        <h3 class="subhead" style="margin:0"><span class="bar"></span>Meta Corporativa — EG01 · Portafolio competitivo</h3>
+        <span class="bsc__cause">Aprendizaje &nbsp;→&nbsp; Procesos &nbsp;→&nbsp; Cliente &nbsp;→&nbsp; Financiera</span>
+      </div>
+      <div class="bsc">
+        <div class="bsc__layer bsc__l-apr">
+          <div class="bsc__bar">Aprendizaje y Crecimiento <span class="pp">· Capacidades del equipo</span></div>
+          <div class="bsc__cells">
+            <div class="bsc__cell"><b>2 certificaciones .NET / Azure</b><span>por miembro del equipo al año</span></div>
+            <div class="bsc__cell"><b>Programa de innovación interna</b><span>para nuevos servicios</span></div>
+            <div class="bsc__cell"><b>Documentación de conocimiento</b><span>y mejores prácticas</span></div>
+            <div class="bsc__cell"><b>Retención de talento clave</b><span>con plan de carrera</span></div>
+          </div>
+        </div>
+        <div class="bsc__arrows">▼ ▼</div>
+        <div class="bsc__layer bsc__l-int">
+          <div class="bsc__bar">Interno / Procesos <span class="pp">· Cómo operamos</span></div>
+          <div class="bsc__cells">
+            <div class="bsc__cell"><b>Estandarización del 100%</b><span>de procesos de entrega</span></div>
+            <div class="bsc__cell"><b>Metodologías ágiles (Scrum)</b><span>para reducir el time-to-market</span></div>
+            <div class="bsc__cell"><b>Control de calidad</b><span>con SonarQube y pruebas automatizadas</span></div>
+            <div class="bsc__cell"><b>Gestión de portafolio</b><span>de servicios con revisión trimestral</span></div>
+          </div>
+        </div>
+        <div class="bsc__arrows">▼ ▼</div>
+        <div class="bsc__layer bsc__l-cli">
+          <div class="bsc__bar">Cliente / Usuario <span class="pp">· Valor entregado</span></div>
+          <div class="bsc__cells">
+            <div class="bsc__cell"><b>Satisfacción del cliente</b><span>≥ 85% (CSAT)</span></div>
+            <div class="bsc__cell"><b>Tasa de retención</b><span>de clientes ≥ 85% anual</span></div>
+            <div class="bsc__cell"><b>Propuestas de valor</b><span>tecnológico diferenciadas</span></div>
+            <div class="bsc__cell"><b>Tiempo de respuesta</b><span>en soporte &lt; 24 hrs</span></div>
+          </div>
+        </div>
+        <div class="bsc__arrows">▼ ▼</div>
+        <div class="bsc__layer bsc__l-fin">
+          <div class="bsc__bar">Financiera <span class="pp">· Resultados</span></div>
+          <div class="bsc__cells">
+            <div class="bsc__cell"><b>Margen de utilidad neta</b><span>≥ 20% al 2.º año fiscal</span></div>
+            <div class="bsc__cell"><b>Diversificación de ingresos</b><span>(consultoría + desarrollo)</span></div>
+            <div class="bsc__cell"><b>Incremento del ticket</b><span>promedio por cliente</span></div>
+            <div class="bsc__cell"><b>Reducción de costos</b><span>de adquisición de clientes</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="bsc__cap">
+        <h3 class="subhead" style="margin:0"><span class="bar"></span>Meta de IT — AG05 · Servicios alineados al negocio</h3>
+        <span class="bsc__cause">Aprendizaje &nbsp;→&nbsp; Procesos &nbsp;→&nbsp; Cliente &nbsp;→&nbsp; Financiera</span>
+      </div>
+      <div class="bsc">
+        <div class="bsc__layer bsc__l-apr">
+          <div class="bsc__bar">Aprendizaje y Crecimiento <span class="pp">· Capacidades técnicas</span></div>
+          <div class="bsc__cells">
+            <div class="bsc__cell"><b>Certificación del equipo</b><span>en monitoreo y observabilidad</span></div>
+            <div class="bsc__cell"><b>Capacitación en ITIL v4</b><span>para gestión de incidentes</span></div>
+            <div class="bsc__cell"><b>Knowledge sharing quincenal</b><span>con postmortems de incidentes</span></div>
+            <div class="bsc__cell"><b>Programa de mentoría</b><span>para reducir la curva de aprendizaje</span></div>
+          </div>
+        </div>
+        <div class="bsc__arrows">▼ ▼</div>
+        <div class="bsc__layer bsc__l-int">
+          <div class="bsc__bar">Interno / Procesos <span class="pp">· Operación de TI</span></div>
+          <div class="bsc__cells">
+            <div class="bsc__cell"><b>Monitoreo proactivo 24/7</b><span>con alertas automáticas</span></div>
+            <div class="bsc__cell"><b>Escalamiento L1 → L2 → L3</b><span>estandarizado bajo ITIL</span></div>
+            <div class="bsc__cell"><b>Pipeline CI/CD</b><span>para despliegues controlados con rollback</span></div>
+            <div class="bsc__cell"><b>Base de conocimiento actualizada</b><span>con soluciones documentadas</span></div>
+          </div>
+        </div>
+        <div class="bsc__arrows">▼ ▼</div>
+        <div class="bsc__layer bsc__l-cli">
+          <div class="bsc__bar">Cliente / Usuario <span class="pp">· Métricas de servicio</span></div>
+          <div class="bsc__cells">
+            <div class="bsc__cell"><b>MTTR &lt; 4 horas</b><span>para incidentes críticos</span></div>
+            <div class="bsc__cell"><b>Disponibilidad de sistemas</b><span>críticos ≥ 99.5%</span></div>
+            <div class="bsc__cell"><b>CSAT usuarios internos</b><span>≥ 85% (encuesta trimestral)</span></div>
+            <div class="bsc__cell"><b>Notificación proactiva</b><span>de incidentes mayores en &lt; 15 min</span></div>
+          </div>
+        </div>
+        <div class="bsc__arrows">▼ ▼</div>
+        <div class="bsc__layer bsc__l-fin">
+          <div class="bsc__bar">Financiera <span class="pp">· Impacto económico</span></div>
+          <div class="bsc__cells">
+            <div class="bsc__cell"><b>Reducción del costo</b><span>por incidente crítico de 30%</span></div>
+            <div class="bsc__cell"><b>Menor downtime</b><span>= menor pérdida económica del cliente</span></div>
+            <div class="bsc__cell"><b>Retención de clientes</b><span>por cumplimiento sostenido de SLA</span></div>
+            <div class="bsc__cell"><b>ROI del servicio</b><span>de consultoría demostrable con métricas</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10 · CASO DE NEGOCIO ============ -->
+<section class="section" id="caso" data-screen-label="Caso de Negocio">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">10 — Caso de Negocio</span>
+      <h2>Servicio de Consultoría Especializada en .NET</h2>
+      <p>Propuesta integral de soporte, mantenimiento y evolución de aplicaciones .NET. Explora cada apartado del caso de negocio.</p>
+      <a class="doc-btn" href="docs/Caso_de_Negocio_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="acc">
+      <!-- 1 -->
+      <div class="acc__item is-open">
+        <button class="acc__head" aria-expanded="true"><span class="num">01</span><span class="ttl">Información general del servicio de TI</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <p>Ficha técnica general que identifica el servicio de consultoría de Tecnologías de Información propuesto.</p>
+          <dl class="dgrid">
+            <div class="wide"><dt>Nombre del servicio</dt><dd>Servicio de Consultoría Especializada en Soporte, Mantenimiento y Evolución de Aplicaciones .NET</dd></div>
+            <div><dt>Empresa consultora</dt><dd>CuriTech</dd></div>
+            <div><dt>Administrador del servicio</dt><dd>Rocío Palacios Solano</dd></div>
+            <div><dt>Fecha de elaboración</dt><dd>10 / 02 / 2026</dd></div>
+            <div><dt>Inicio de la propuesta</dt><dd>04 / 02 / 2026</dd></div>
+            <div><dt>Fin de la propuesta</dt><dd>12 / 06 / 2026</dd></div>
+            <div><dt>Clave</dt><dd>Desarrollo</dd></div>
+            <div><dt>Versión del documento</dt><dd>1.0</dd></div>
+          </dl>
+        </div></div></div>
+      </div>
+
+      <!-- 2 -->
+      <div class="acc__item">
+        <button class="acc__head" aria-expanded="false"><span class="num">02</span><span class="ttl">Antecedentes</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <p>Las organizaciones a nivel global fundamentan su operación en diversas plataformas tecnológicas, que se han convertido en un componente estratégico para la continuidad del negocio. Cuando el ecosistema operativo se encuentra soportado por aplicaciones construidas sobre la plataforma Microsoft .NET, estas sostienen tanto los procesos misionales como los administrativos.</p>
+          <p>A lo largo de los años, estas aplicaciones tienden a crecer en complejidad y alcance funcional. Sin embargo, el crecimiento orgánico genera retos técnicos relevantes: deuda técnica acumulada, dependencias de versiones legacy del framework .NET, falta de documentación actualizada y limitaciones en la capacidad interna para atender simultáneamente el soporte operativo y la evolución tecnológica.</p>
+          <p>Ante este escenario, las empresas han identificado la necesidad de contratar un servicio de consultoría especializada en tecnologías .NET que garantice la estabilidad operativa de sus sistemas actuales, al mismo tiempo que impulsa la modernización, optimización y escalabilidad de su portafolio. <strong>CuriTech ofrece este servicio integral</strong>.</p>
+        </div></div></div>
+      </div>
+
+      <!-- 3 -->
+      <div class="acc__item">
+        <button class="acc__head" aria-expanded="false"><span class="num">03</span><span class="ttl">Justificación técnica del servicio</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <div class="cards grid-2">
+            <div class="card"><h4>3.1 · Complejidad del ecosistema</h4><p>La infraestructura opera sobre múltiples versiones de .NET Framework y .NET Core/.NET 6+, lo que requiere conocimiento especializado para garantizar interoperabilidad, seguridad y rendimiento. La heterogeneidad demanda experiencia transversal en el stack de Microsoft.</p></div>
+            <div class="card"><h4>3.2 · Riesgo por dependencia de conocimiento</h4><p>El conocimiento crítico se concentra en un número limitado de recursos internos, lo que representa un riesgo de continuidad ante rotación, vacaciones o incapacidades. CuriTech permite distribuir y documentar este conocimiento.</p></div>
+            <div class="card"><h4>3.3 · Necesidad de modernización continua</h4><p>Microsoft actualiza .NET con frecuencia. La falta de actualización expone a vulnerabilidades conocidas, problemas de compatibilidad y obsolescencia. Se requiere un equipo dedicado que gestione estas actualizaciones de forma planificada y controlada.</p></div>
+            <div class="card"><h4>3.4 · Optimización de la operación</h4><p>Existen procesos operativos que se ejecutan de forma manual o semi-automatizada, los cuales pueden beneficiarse de soluciones basadas en .NET para su automatización, reduciendo tiempos, errores humanos y costos operativos.</p></div>
+          </div>
+        </div></div></div>
+      </div>
+
+      <!-- 4 -->
+      <div class="acc__item">
+        <button class="acc__head" aria-expanded="false"><span class="num">04</span><span class="ttl">Alcance</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <div class="split--even" style="display:grid;gap:26px">
+            <div>
+              <h4>Líneas de acción incluidas</h4>
+              <ul class="flist flist--check">
+                <li><strong>Soporte técnico especializado:</strong> incidentes L2/L3, diagnóstico en dev/pruebas/producción, soporte a IIS, SQL Server y servicios Windows bajo SLA.</li>
+                <li><strong>Mantenimiento de aplicaciones:</strong> correctivo, preventivo (optimización SQL, logs, monitoreo) y adaptativo.</li>
+                <li><strong>Actualizaciones y migraciones:</strong> de .NET Framework a .NET 6/7/8/9/10, paquetes NuGet y dependencias de terceros.</li>
+                <li><strong>Desarrollo de funcionalidades:</strong> nuevos módulos, integración vía APIs REST/SOAP, reportes y dashboards.</li>
+                <li><strong>Involucramiento en la operación:</strong> mejora continua, soluciones que agilizan procesos y acompañamiento en decisiones de arquitectura.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Exclusiones del alcance</h4>
+              <ul class="flist">
+                <li>Desarrollo de aplicaciones nuevas no relacionadas con el ecosistema .NET actual.</li>
+                <li>Administración de infraestructura física (hardware, redes, cableado).</li>
+                <li>Licenciamiento de software de Microsoft u otros proveedores.</li>
+                <li>Soporte a aplicaciones de terceros no basadas en tecnología .NET.</li>
+              </ul>
+              <p class="tnote" style="margin-top:16px">Salvo acuerdo contractual adicional gestionado mediante el proceso formal de gestión de cambios.</p>
+            </div>
+          </div>
+        </div></div></div>
+      </div>
+
+      <!-- 5 -->
+      <div class="acc__item">
+        <button class="acc__head" aria-expanded="false"><span class="num">05</span><span class="ttl">Objetivo</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <h4>Objetivo general</h4>
+          <p>Proveer un servicio integral de consultoría especializada en tecnologías .NET que garantice la continuidad operativa, estabilidad, seguridad y evolución del portafolio de aplicaciones y procesos del cliente, contribuyendo a la eficiencia operativa y a la alineación tecnológica con los objetivos estratégicos de la organización.</p>
+          <h4>Objetivos específicos</h4>
+          <ul class="flist flist--check">
+            <li>Reducir el tiempo promedio de resolución de incidentes críticos en al menos <strong>30%</strong> durante el primer semestre.</li>
+            <li>Mantener una disponibilidad del <strong>99%</strong> en las aplicaciones críticas de negocio.</li>
+            <li>Implementar mantenimiento preventivo que reduzca en <strong>40%</strong> los incidentes recurrentes.</li>
+            <li>Documentar el <strong>100%</strong> de las aplicaciones críticas bajo estándares de documentación técnica.</li>
+            <li>Ejecutar al menos una <strong>migración tecnológica</strong> significativa por trimestre.</li>
+            <li>Automatizar al menos <strong>3 procesos</strong> operativos clave durante la vigencia del contrato.</li>
+          </ul>
+        </div></div></div>
+      </div>
+
+      <!-- 6 -->
+      <div class="acc__item">
+        <button class="acc__head" aria-expanded="false"><span class="num">06</span><span class="ttl">Identificación de riesgos</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <p>Matriz de riesgos identificados para el servicio, con su probabilidad, impacto y estrategia de mitigación.</p>
+          <div class="cards" style="grid-template-columns:repeat(auto-fit,minmax(330px,1fr))">
+            <div class="card"><div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px"><strong style="color:var(--navy)">R01 · Resistencia al cambio</strong><span style="display:flex;gap:6px"><span class="badge b-media">Prob. Media</span><span class="badge b-alto">Impacto Alto</span></span></div><p>Resistencia de usuarios internos del cliente. <strong>Mitigación:</strong> programa de gestión del cambio, comunicación continua y capacitación.</p></div>
+            <div class="card"><div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px"><strong style="color:var(--navy)">R02 · Documentación insuficiente</strong><span style="display:flex;gap:6px"><span class="badge b-alta">Prob. Alta</span><span class="badge b-alto">Impacto Alto</span></span></div><p>Documentación insuficiente de aplicaciones existentes. <strong>Mitigación:</strong> fase inicial de levantamiento y documentación antes de intervenciones mayores.</p></div>
+            <div class="card"><div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px"><strong style="color:var(--navy)">R03 · Dependencias no identificadas</strong><span style="display:flex;gap:6px"><span class="badge b-media">Prob. Media</span><span class="badge b-alto">Impacto Alto</span></span></div><p>Dependencias tecnológicas no identificadas entre aplicaciones. <strong>Mitigación:</strong> mapeo de arquitectura y análisis de dependencias en fase de descubrimiento.</p></div>
+            <div class="card"><div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px"><strong style="color:var(--navy)">R04 · Rotación de personal clave</strong><span style="display:flex;gap:6px"><span class="badge b-baja">Prob. Baja</span><span class="badge b-medio">Impacto Medio</span></span></div><p>Rotación de personal clave del equipo consultor. <strong>Mitigación:</strong> base de conocimiento compartida, documentación continua y pares de trabajo.</p></div>
+            <div class="card"><div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px"><strong style="color:var(--navy)">R05 · Indisponibilidad de ambientes</strong><span style="display:flex;gap:6px"><span class="badge b-media">Prob. Media</span><span class="badge b-medio">Impacto Medio</span></span></div><p>Indisponibilidad de ambientes de pruebas. <strong>Mitigación:</strong> acuerdo contractual para garantía de ambientes y ventanas de mantenimiento.</p></div>
+            <div class="card"><div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px"><strong style="color:var(--navy)">R06 · Cambios de prioridad</strong><span style="display:flex;gap:6px"><span class="badge b-alta">Prob. Alta</span><span class="badge b-medio">Impacto Medio</span></span></div><p>Cambios de prioridad no planificados por el cliente. <strong>Mitigación:</strong> proceso formal de gestión de cambios con comité de control.</p></div>
+            <div class="card"><div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px"><strong style="color:var(--navy)">R07 · Incompatibilidad en migraciones</strong><span style="display:flex;gap:6px"><span class="badge b-media">Prob. Media</span><span class="badge b-alto">Impacto Alto</span></span></div><p>Incompatibilidad en migraciones de versión de .NET. <strong>Mitigación:</strong> POC previo, pruebas de regresión y plan de rollback.</p></div>
+            <div class="card"><div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px"><strong style="color:var(--navy)">R08 · Vulnerabilidades en legacy</strong><span style="display:flex;gap:6px"><span class="badge b-alta">Prob. Alta</span><span class="badge b-critico">Impacto Crítico</span></span></div><p>Vulnerabilidades de seguridad en aplicaciones legacy. <strong>Mitigación:</strong> escaneo de vulnerabilidades periódico y plan de remediación priorizado.</p></div>
+          </div>
+        </div></div></div>
+      </div>
+
+      <!-- 7 -->
+      <div class="acc__item">
+        <button class="acc__head" aria-expanded="false"><span class="num">07</span><span class="ttl">Identificación de indicadores (KPIs)</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <div class="twrap">
+            <table class="dt" style="min-width:720px">
+              <thead><tr><th style="width:70px">ID</th><th>Indicador</th><th>Fórmula / Descripción</th><th class="center" style="width:130px">Meta</th><th class="center" style="width:110px">Frecuencia</th></tr></thead>
+              <tbody>
+                <tr><td class="mono">KPI-01</td><td class="rowlead">Disponibilidad de aplicaciones críticas</td><td>(Tiempo activo / Tiempo total) × 100</td><td class="center"><span class="badge b-baja">≥ 99.5%</span></td><td class="center">Mensual</td></tr>
+                <tr><td class="mono">KPI-02</td><td class="rowlead">Tiempo medio de resolución (MTTR)</td><td>Suma de tiempos de resolución / N.º de incidentes</td><td class="center"><span class="badge b-baja">≤ 4 hrs</span></td><td class="center">Mensual</td></tr>
+                <tr><td class="mono">KPI-03</td><td class="rowlead">Tasa de incidentes recurrentes</td><td>(Incidentes repetidos / Total) × 100</td><td class="center"><span class="badge b-baja">≤ 10%</span></td><td class="center">Trimestral</td></tr>
+                <tr><td class="mono">KPI-04</td><td class="rowlead">Cumplimiento de SLA</td><td>(Incidentes resueltos en SLA / Total) × 100</td><td class="center"><span class="badge b-baja">≥ 95%</span></td><td class="center">Mensual</td></tr>
+                <tr><td class="mono">KPI-05</td><td class="rowlead">Avance en hoja de ruta de modernización</td><td>% de hitos completados vs. planificados</td><td class="center"><span class="badge b-baja">≥ 90%</span></td><td class="center">Trimestral</td></tr>
+                <tr><td class="mono">KPI-06</td><td class="rowlead">Cobertura de documentación técnica</td><td>(Apps documentadas / Total de apps) × 100</td><td class="center"><span class="badge b-baja">100%</span></td><td class="center">Semestral</td></tr>
+                <tr><td class="mono">KPI-07</td><td class="rowlead">Satisfacción del cliente</td><td>Encuesta de satisfacción (escala 1-10)</td><td class="center"><span class="badge b-baja">≥ 8.5</span></td><td class="center">Trimestral</td></tr>
+                <tr><td class="mono">KPI-08</td><td class="rowlead">Procesos automatizados</td><td>N.º de procesos automatizados acumulados</td><td class="center"><span class="badge b-baja">≥ 3 / año</span></td><td class="center">Semestral</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div></div></div>
+      </div>
+
+      <!-- 8 -->
+      <div class="acc__item">
+        <button class="acc__head" aria-expanded="false"><span class="num">08</span><span class="ttl">Beneficios esperados</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <div class="cards grid-3">
+            <div class="card"><div class="card__ico">OP</div><h4>Operativos</h4><ul class="flist" style="margin-top:12px"><li>Reducción de tiempos de respuesta ante incidentes.</li><li>Mayor estabilidad y disponibilidad con monitoreo proactivo.</li><li>Automatización de procesos manuales, liberando capacidad operativa.</li></ul></div>
+            <div class="card"><div class="card__ico">TC</div><h4>Técnicos</h4><ul class="flist" style="margin-top:12px"><li>Modernización progresiva del portafolio, reduciendo deuda técnica.</li><li>Documentación completa y actualizada de las aplicaciones.</li><li>Estándares de desarrollo, seguridad y arquitectura.</li></ul></div>
+            <div class="card"><div class="card__ico">ES</div><h4>Estratégicos</h4><ul class="flist" style="margin-top:12px"><li>Alineación de la tecnología con los objetivos de negocio.</li><li>Reducción de riesgo operativo con equipo especializado externo.</li><li>Flexibilidad para escalar el servicio según la demanda.</li></ul></div>
+          </div>
+        </div></div></div>
+      </div>
+
+      <!-- 9 -->
+      <div class="acc__item">
+        <button class="acc__head" aria-expanded="false"><span class="num">09</span><span class="ttl">Planeación a alto nivel</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <h4>Cronograma a alto nivel</h4>
+          <div class="twrap">
+            <table class="dt" style="min-width:640px">
+              <thead><tr><th style="width:90px">Fase</th><th>Actividad principal</th><th class="center" style="width:120px">Duración</th><th class="center" style="width:110px">Periodo</th></tr></thead>
+              <tbody>
+                <tr><td class="strong">Fase 0</td><td>Onboarding: levantamiento, descubrimiento y documentación inicial</td><td class="center">4 semanas</td><td class="center">Mes 1</td></tr>
+                <tr><td class="strong">Fase 1</td><td>Estabilización: soporte operativo, corrección de incidentes críticos y quick wins</td><td class="center">8 semanas</td><td class="center">Mes 2-3</td></tr>
+                <tr><td class="strong">Fase 2</td><td>Optimización: mantenimiento preventivo, refactoring y automatización</td><td class="center">12 semanas</td><td class="center">Mes 4-6</td></tr>
+                <tr><td class="strong">Fase 3</td><td>Modernización: migraciones tecnológicas y desarrollo de funcionalidades</td><td class="center">12 semanas</td><td class="center">Mes 7-9</td></tr>
+                <tr><td class="strong">Fase 4</td><td>Evolución continua: mejora continua, nuevas versiones y soporte evolutivo</td><td class="center">12 semanas</td><td class="center">Mes 10-12</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="tnote">Las fases no son estrictamente secuenciales; el soporte operativo (Fase 1) se mantiene activo durante todas las fases subsecuentes.</p>
+
+          <h4>Personal involucrado</h4>
+          <div class="twrap">
+            <table class="dt" style="min-width:640px">
+              <thead><tr><th>Rol</th><th>Responsabilidades</th><th class="center" style="width:140px">Dedicación</th><th class="center" style="width:70px">Cant.</th></tr></thead>
+              <tbody>
+                <tr><td class="rowlead">Líder Técnico / Arquitecto .NET</td><td>Dirección técnica, arquitectura, revisión de código, decisiones técnicas</td><td class="center">Tiempo completo</td><td class="center">1</td></tr>
+                <tr><td class="rowlead">Desarrollador .NET Senior</td><td>Desarrollo, mantenimiento, migraciones, soporte L3</td><td class="center">Tiempo completo</td><td class="center">2</td></tr>
+                <tr><td class="rowlead">Desarrollador .NET Semi-Senior</td><td>Desarrollo, mantenimiento correctivo, soporte L2</td><td class="center">Tiempo completo</td><td class="center">1</td></tr>
+                <tr><td class="rowlead">Analista de QA</td><td>Pruebas funcionales, de regresión, automatización</td><td class="center">Medio tiempo</td><td class="center">1</td></tr>
+                <tr><td class="rowlead">Administrador del Servicio</td><td>Gestión del servicio, reporteo, SLAs, relación con el cliente</td><td class="center">Parcial</td><td class="center">1</td></tr>
+                <tr><td class="rowlead">DBA / Especialista SQL Server</td><td>Optimización de BD, consultas, procedimientos almacenados</td><td class="center">Bajo demanda</td><td class="center">1</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="tnote">Dependencias con otros proyectos: infraestructura de servidores (Alto), licenciamiento Microsoft (Medio), proyectos de red y seguridad (Medio), proyectos de negocio (Medio) y migración a nube si aplica (Alto).</p>
+        </div></div></div>
+      </div>
+
+      <!-- 10 -->
+      <div class="acc__item">
+        <button class="acc__head" aria-expanded="false"><span class="num">10</span><span class="ttl">Justificación económica</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <h4>Estudio de mercado</h4>
+          <div class="twrap">
+            <table class="dt" style="min-width:680px">
+              <thead><tr><th>Concepto</th><th class="center">Proveedor A</th><th class="center">Proveedor B</th><th class="center" style="background:var(--blue)">CuriTech (propuesta)</th></tr></thead>
+              <tbody>
+                <tr><td class="rowlead">Modelo de servicio</td><td class="center">Bolsa de horas</td><td class="center">Equipo dedicado</td><td class="center strong">Equipo dedicado + bolsa para picos</td></tr>
+                <tr><td class="rowlead">Experiencia en .NET</td><td class="center">5 años</td><td class="center">8 años</td><td class="center strong">4 años</td></tr>
+                <tr><td class="rowlead">Certificaciones Microsoft</td><td class="center">2 recursos</td><td class="center">3 recursos</td><td class="center strong">3 recursos certificados</td></tr>
+                <tr><td class="rowlead">SLA propuesto</td><td class="center">8 hrs crítico</td><td class="center">6 hrs crítico</td><td class="center"><span class="badge b-baja">4 hrs crítico</span></td></tr>
+                <tr><td class="rowlead">Costo mensual estimado</td><td class="center">$310,000 MXN</td><td class="center">$345,000 MXN</td><td class="center"><span class="badge b-baja">$282,000 MXN</span></td></tr>
+                <tr><td class="rowlead">Incluye migración .NET</td><td class="center">No</td><td class="center">Con costo adicional</td><td class="center strong">Sí, incluido</td></tr>
+                <tr><td class="rowlead">Soporte 24/7</td><td class="center">No</td><td class="center">Con cargo extra</td><td class="center strong">Incluido para críticos</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="tnote">La propuesta de CuriTech ofrece el menor costo mensual ($282,000 MXN) con el mejor SLA (4 hrs para críticos), incluyendo migración .NET y soporte 24/7 para críticos sin cargo adicional.</p>
+
+          <div class="split--even" style="display:grid;gap:24px;margin-top:22px">
+            <div>
+              <h4>Costo de mantenimiento</h4>
+              <div class="twrap"><table class="dt" style="min-width:0">
+                <thead><tr><th>Concepto</th><th class="num">Mensual</th><th class="num">Anual</th></tr></thead>
+                <tbody>
+                  <tr><td>Soporte L2/L3 e incidentes</td><td class="num">$38,000</td><td class="num">$456,000</td></tr>
+                  <tr><td>Mantenimiento correctivo</td><td class="num">$25,000</td><td class="num">$300,000</td></tr>
+                  <tr><td>Mantenimiento preventivo</td><td class="num">$20,000</td><td class="num">$240,000</td></tr>
+                  <tr><td>Gestión y administración</td><td class="num">$12,000</td><td class="num">$144,000</td></tr>
+                </tbody>
+                <tfoot><tr><td>Total Mantenimiento</td><td class="num">$95,000</td><td class="num">$1,140,000</td></tr></tfoot>
+              </table></div>
+            </div>
+            <div>
+              <h4>Costos de operación</h4>
+              <div class="twrap"><table class="dt" style="min-width:0">
+                <thead><tr><th>Concepto</th><th class="num">Mensual</th><th class="num">Anual</th></tr></thead>
+                <tbody>
+                  <tr><td>Desarrollo de funcionalidades</td><td class="num">$85,000</td><td class="num">$1,020,000</td></tr>
+                  <tr><td>Migración tecnológica (.NET)</td><td class="num">$45,000</td><td class="num">$540,000</td></tr>
+                  <tr><td>Automatización de procesos</td><td class="num">$30,000</td><td class="num">$360,000</td></tr>
+                  <tr><td>Herramientas y licencias</td><td class="num">$12,500</td><td class="num">$150,000</td></tr>
+                  <tr><td>Capacitación y transferencia</td><td class="num">$15,000</td><td class="num">$180,000</td></tr>
+                </tbody>
+                <tfoot><tr><td>Total Operación</td><td class="num">$187,000</td><td class="num">$2,250,000</td></tr></tfoot>
+              </table></div>
+            </div>
+          </div>
+          <div class="note"><i class="ni">$</i><div><b>Procedimiento de adquisición:</b> solicitud de servicio (1 sem) → evaluación técnica (2 sem) → evaluación económica (2 sem) → negociación contractual (2-3 sem) → kick-off (1 sem). Contrato bajo modalidad de prestación de servicios profesionales de TI con vigencia de <b>12 meses</b>, renovable por periodos iguales sujeto a evaluación de desempeño.</div></div>
+        </div></div></div>
+      </div>
+
+      <!-- 11 -->
+      <div class="acc__item">
+        <button class="acc__head" aria-expanded="false"><span class="num">11</span><span class="ttl">Glosario técnico</span><span class="ico"></span></button>
+        <div class="acc__body"><div class="acc__bodyinner"><div class="acc__content">
+          <div class="twrap">
+            <table class="dt" style="min-width:640px">
+              <thead><tr><th style="width:210px">Término</th><th>Definición</th></tr></thead>
+              <tbody>
+                <tr><td class="rowlead">.NET / .NET Framework</td><td>Plataforma de desarrollo de software de Microsoft para aplicaciones web, de escritorio y servicios.</td></tr>
+                <tr><td class="rowlead">.NET Core / .NET 6+</td><td>Versión moderna, multiplataforma y de código abierto de .NET que reemplaza al .NET Framework clásico.</td></tr>
+                <tr><td class="rowlead">API</td><td>Interfaz de programación de aplicaciones que permite la comunicación entre sistemas de software.</td></tr>
+                <tr><td class="rowlead">CI/CD</td><td>Integración Continua / Despliegue Continuo. Automatización del ciclo de vida del software.</td></tr>
+                <tr><td class="rowlead">CVE</td><td>Common Vulnerabilities and Exposures. Identificación de vulnerabilidades de seguridad conocidas.</td></tr>
+                <tr><td class="rowlead">DBA</td><td>Database Administrator. Responsable del rendimiento, seguridad y disponibilidad de las bases de datos.</td></tr>
+                <tr><td class="rowlead">DevOps</td><td>Metodología que integra desarrollo y operaciones para mejorar colaboración y automatización.</td></tr>
+                <tr><td class="rowlead">IIS</td><td>Internet Information Services. Servidor web de Microsoft para alojar aplicaciones web .NET.</td></tr>
+                <tr><td class="rowlead">KPI</td><td>Key Performance Indicator. Indicador clave de rendimiento de un proceso o servicio.</td></tr>
+                <tr><td class="rowlead">MTTR</td><td>Mean Time To Resolution. Tiempo promedio de resolución de un incidente.</td></tr>
+                <tr><td class="rowlead">NuGet</td><td>Sistema de gestión de paquetes para .NET que facilita la reutilización de código.</td></tr>
+                <tr><td class="rowlead">POC</td><td>Proof of Concept. Prueba de concepto para validar la viabilidad de una solución.</td></tr>
+                <tr><td class="rowlead">QA</td><td>Quality Assurance. Actividades para garantizar que el software cumple los requisitos.</td></tr>
+                <tr><td class="rowlead">REST / SOAP</td><td>Estilos de arquitectura para la comunicación entre sistemas mediante servicios web.</td></tr>
+                <tr><td class="rowlead">Rollback</td><td>Proceso de revertir un sistema a un estado anterior tras una actualización fallida.</td></tr>
+                <tr><td class="rowlead">SLA</td><td>Service Level Agreement. Acuerdo de nivel de servicio con compromisos de calidad y tiempos.</td></tr>
+                <tr><td class="rowlead">SQL Server</td><td>Sistema de gestión de bases de datos relacional de Microsoft.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ 11 · CÉDULA DE SERVICIO ============ -->
+<section class="section section--soft" id="cedula" data-screen-label="Cédula de Servicio">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">11 — Cédula de Servicio · ITIL</span>
+      <h2>Definición formal del servicio bajo ITIL</h2>
+      <p>Información general, responsables (RACI), condiciones de prestación y acuerdos de nivel de servicio (SLA / OLA) del servicio de consultoría .NET.</p>
+      <a class="doc-btn" href="docs/Cedula_de_Servicio_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>1 · Información general del servicio</h3>
+      <dl class="dgrid">
+        <div class="wide"><dt>Nombre del servicio</dt><dd>Servicio de Consultoría Especializada en Soporte, Mantenimiento y Evolución de Aplicaciones .NET</dd></div>
+        <div><dt>Nombre de la empresa</dt><dd>Consultoría Especializada .NET</dd></div>
+        <div><dt>Departamento</dt><dd>Tecnologías de Información</dd></div>
+        <div><dt>Tipo de servicio</dt><dd>Nuevo</dd></div>
+        <div><dt>Administradora del servicio</dt><dd>Rocío Palacios Solano</dd></div>
+        <div class="wide"><dt>Variantes / sub-servicios</dt><dd class="normal">1) Soporte técnico L2/L3 en apps .NET · 2) Mantenimiento correctivo, preventivo y adaptativo · 3) Actualizaciones y migraciones (.NET Framework → .NET 8+) · 4) Desarrollo de nuevas funcionalidades y módulos · 5) Automatización de procesos operativos · 6) Consultoría en arquitectura de soluciones .NET</dd></div>
+        <div class="wide"><dt>Objetivo del servicio</dt><dd class="normal">Garantizar la continuidad operativa, estabilidad, seguridad y evolución del portafolio de aplicaciones .NET del cliente. Se busca reducir el MTTR en 30%, mantener disponibilidad ≥ 99%, reducir incidentes recurrentes en 40% y automatizar al menos 3 procesos operativos clave.</dd></div>
+        <div class="wide"><dt>Demanda del servicio</dt><dd class="normal">Servicio continuo durante 5 meses (febrero a junio 2026), con un equipo dedicado de 7 recursos. 102 días laborales efectivos / 816 horas productivas. Horario laboral estándar (L-V 9:00-18:00) con soporte extendido 24/7 para incidentes críticos. Capacidad para 40-60 tickets mensuales en L2/L3.</dd></div>
+        <div class="wide"><dt>Usuarios a quienes se brinda el servicio</dt><dd class="normal">Usuarios finales de las aplicaciones .NET · Mesa de ayuda L1 (recibe soluciones de escalaciones) · Equipo interno de TI del cliente (transferencia de conocimiento) · Áreas de negocio · Dirección de TI (reportes, KPIs y decisiones estratégicas).</dd></div>
+      </dl>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>2 · Responsables del servicio — Matriz RACI</h3>
+      <div class="twrap">
+        <table class="dt" style="min-width:680px">
+          <thead><tr><th>Actividad / Rol</th><th class="center" style="width:120px">Líder Téc. / Arq.</th><th class="center" style="width:120px">Desarrollador .NET Sr</th><th class="center" style="width:110px">QA / Analista</th><th class="center" style="width:120px">Adm. Servicio</th></tr></thead>
+          <tbody>
+            <tr><td class="rowlead">Soporte y resolución de incidentes L2/L3</td><td class="raci r-A">A</td><td class="raci r-R">R</td><td class="raci r-C">C</td><td class="raci r-I">I</td></tr>
+            <tr><td class="rowlead">Mantenimiento correctivo de aplicaciones</td><td class="raci r-A">A</td><td class="raci r-R">R</td><td class="raci r-C">C</td><td class="raci r-I">I</td></tr>
+            <tr><td class="rowlead">Mantenimiento preventivo y optimización</td><td class="raci r-R">R</td><td class="raci r-C">C</td><td class="raci r-C">C</td><td class="raci r-I">I</td></tr>
+            <tr><td class="rowlead">Migración tecnológica .NET</td><td class="raci r-R">R</td><td class="raci r-C">C</td><td class="raci r-C">C</td><td class="raci r-I">I</td></tr>
+            <tr><td class="rowlead">Desarrollo de nuevas funcionalidades</td><td class="raci r-A">A</td><td class="raci r-R">R</td><td class="raci r-C">C</td><td class="raci r-I">I</td></tr>
+            <tr><td class="rowlead">Automatización de procesos operativos</td><td class="raci r-A">A</td><td class="raci r-R">R</td><td class="raci r-C">C</td><td class="raci r-I">I</td></tr>
+            <tr><td class="rowlead">Pruebas funcionales y de regresión</td><td class="raci r-C">C</td><td class="raci r-I">I</td><td class="raci r-R">R</td><td class="raci r-I">I</td></tr>
+            <tr><td class="rowlead">Documentación técnica</td><td class="raci r-A">A</td><td class="raci r-C">C</td><td class="raci r-C">C</td><td class="raci r-R">R</td></tr>
+            <tr><td class="rowlead">Gestión del servicio y reporteo SLA</td><td class="raci r-C">C</td><td class="raci r-I">I</td><td class="raci r-I">I</td><td class="raci r-R">R</td></tr>
+            <tr><td class="rowlead">Arquitectura y decisiones técnicas</td><td class="raci r-R">R</td><td class="raci r-C">C</td><td class="raci r-I">I</td><td class="raci r-I">I</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="legend">
+        <span class="li"><b class="raci r-R" style="font-size:13px">R</b> Responsable</span>
+        <span class="li"><b class="raci r-A" style="font-size:13px">A</b> Aprobador (Accountable)</span>
+        <span class="li"><b class="raci r-C" style="font-size:13px">C</b> Consultado</span>
+        <span class="li"><b class="raci r-I" style="font-size:13px">I</b> Informado</span>
+      </div>
+
+      <h4 style="margin-top:28px;color:var(--navy-700);font-size:1.02rem">Directorio del equipo</h4>
+      <div class="twrap">
+        <table class="dt" style="min-width:640px">
+          <thead><tr><th>Rol</th><th>Nombre</th><th class="center" style="width:150px">Horario de atención</th></tr></thead>
+          <tbody>
+            <tr><td class="rowlead">Líder Técnico / Arquitecto .NET</td><td>Jiménez Bernal Ernesto Amador</td><td class="center">9:00 a 18:00</td></tr>
+            <tr><td class="rowlead">Desarrollador .NET Senior 1</td><td>Pérez Hernández Tony Saifi</td><td class="center">9:00 a 18:00</td></tr>
+            <tr><td class="rowlead">Desarrollador .NET Senior 2</td><td>Hernández Díaz Roberto Ángel</td><td class="center">9:00 a 18:00</td></tr>
+            <tr><td class="rowlead">Desarrollador .NET Semi-Senior</td><td><span style="color:var(--faint)">Por asignar</span></td><td class="center">9:00 a 18:00</td></tr>
+            <tr><td class="rowlead">QA / Analista de pruebas</td><td><span style="color:var(--faint)">Por asignar</span></td><td class="center">9:00 a 14:00</td></tr>
+            <tr><td class="rowlead">Administrador del Servicio</td><td>Rocío Palacios Solano</td><td class="center">9:00 a 18:00</td></tr>
+            <tr><td class="rowlead">DBA / Especialista SQL Server</td><td><span style="color:var(--faint)">Por asignar</span></td><td class="center">Bajo demanda</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>3 · Condiciones generales para proporcionar el servicio</h3>
+      <ol class="flist" style="counter-reset:c;list-style:none">
+        <li>El cliente proporcionará acceso oportuno a los ambientes de desarrollo, pruebas y producción (servidores IIS, SQL Server, repositorios de código fuente).</li>
+        <li>Se requiere un enlace técnico designado por el cliente como contraparte para coordinación, validación de cambios y aprobación de despliegues.</li>
+        <li>El licenciamiento de software de Microsoft (Visual Studio, SQL Server, Windows Server, Azure) es responsabilidad del cliente; el equipo consultor aporta sus propias herramientas.</li>
+        <li>Los cambios de impacto medio-alto en producción requieren aprobación formal del comité de control de cambios.</li>
+        <li>El cliente garantizará ventanas de mantenimiento programadas para despliegues y actualizaciones en producción.</li>
+        <li>Se requiere conectividad segura (VPN site-to-site o acceso remoto) para acceder a la infraestructura del cliente.</li>
+        <li>La documentación técnica generada será propiedad del cliente y se entregará en formato estándar al finalizar el contrato.</li>
+        <li>El servicio se rige por los SLA acordados: incidentes críticos atendidos en máximo 4 horas; no críticos según prioridad.</li>
+        <li>El equipo participará en reuniones semanales de seguimiento y entregará reportes mensuales con métricas de KPIs.</li>
+        <li>Cualquier requerimiento fuera del alcance será evaluado y cotizado por separado mediante gestión formal de cambios.</li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>5 · Niveles de servicio (SLA) — acuerdos con los usuarios</h3>
+      <div class="kpi-strip">
+        <div class="kpi"><div class="v accent">≤ 30 min</div><div class="l">Respuesta — Crítico · resolución ≤ 4 hrs</div></div>
+        <div class="kpi"><div class="v">≤ 1 hr</div><div class="l">Respuesta — Alto · resolución ≤ 8 hrs</div></div>
+        <div class="kpi"><div class="v">≤ 4 hrs</div><div class="l">Respuesta — Medio · resolución ≤ 24 hrs</div></div>
+        <div class="kpi"><div class="v">≤ 8 hrs</div><div class="l">Respuesta — Bajo · resolución ≤ 72 hrs</div></div>
+      </div>
+      <div class="twrap">
+        <table class="dt" style="min-width:640px">
+          <thead><tr><th style="width:200px">Tipo de nivel de servicio</th><th>Compromiso</th></tr></thead>
+          <tbody>
+            <tr><td class="rowlead">Disponibilidad</td><td>Soporte en horario laboral estándar (L-V 9:00-18:00) y extendido 24/7 para incidentes críticos. Meta de disponibilidad de aplicaciones críticas <strong>≥ 99%</strong>. Indisponibilidad no programada máxima permitida: <strong>7.2 horas/mes</strong>.</td></tr>
+            <tr><td class="rowlead">Soporte remoto y presencial</td><td>Soporte remoto vía VPN site-to-site y herramientas de acceso remoto (Teams, AnyDesk). Soporte presencial cuando se requiera intervención directa en servidores o infraestructura del cliente.</td></tr>
+            <tr><td class="rowlead">Confidencialidad</td><td>Toda la información del cliente (código fuente, BD, documentación, datos) será tratada como confidencial. El equipo firmará acuerdos de no divulgación (NDA) individuales.</td></tr>
+            <tr><td class="rowlead">Seguridad</td><td>Accesos mediante VPN cifrada, MFA y control de accesos basado en roles (RBAC). Escaneo periódico de CVEs en aplicaciones .NET. Cumplimiento de políticas de seguridad del cliente. Rotación de credenciales cada 90 días.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>6 · Niveles de servicio (OLA) — elementos de configuración</h3>
+      <h4 style="color:var(--navy-700);font-size:1.02rem">Aplicaciones</h4>
+      <div class="twrap">
+        <table class="dt" style="min-width:680px">
+          <thead><tr><th style="width:150px">Dimensión</th><th>Compromiso</th><th style="width:240px">Métricas</th></tr></thead>
+          <tbody>
+            <tr><td class="rowlead">Capacidad</td><td>Soportar la carga actual con 20% de margen de crecimiento; hasta 500 usuarios concurrentes sin degradación.</td><td>Respuesta ≤ 2 s/transacción · CPU ≤ 75% · RAM ≤ 80%</td></tr>
+            <tr><td class="rowlead">Disponibilidad</td><td>Aplicaciones críticas disponibles el 99% del tiempo mensual, excluyendo ventanas programadas.</td><td>Uptime ≥ 99% (≤ 7.2 hrs/mes) · Incidentes P1 ≤ 2/mes · MTTR crítico ≤ 4 hrs</td></tr>
+            <tr><td class="rowlead">Seguridad</td><td>Autenticación/autorización robusta, cifrado en tránsito (TLS 1.2+) y en reposo. Escaneo trimestral OWASP Top 10.</td><td>Vulnerab. críticas sin parchar: 0 · Remediación CVE crítico ≤ 72 hrs · Cobertura SonarQube 100% apps críticas</td></tr>
+            <tr><td class="rowlead">Respaldos</td><td>Respaldo automático diario de BD y código; respaldo semanal completo. Retención 30 días. Prueba de restauración trimestral.</td><td>Respaldos exitosos ≥ 99% · RPO ≤ 24 hrs · RTO ≤ 4 hrs</td></tr>
+            <tr><td class="rowlead">Mantenimiento</td><td>Correctivo, preventivo y adaptativo programado. Ventanas fuera de horario pico. Comité de cambios para impacto medio-alto.</td><td>Incidentes recurrentes ≤ 10% · Cambios exitosos ≥ 95% · Deuda técnica reducida ≥ 15%/trim.</td></tr>
+            <tr><td class="rowlead">Mantenibilidad</td><td>Código documentado conforme a estándares .NET. Cobertura de documentación 100% para apps críticas.</td><td>Cobertura doc. 100% · Índice mantenibilidad SonarQube ≥ B · Code smells críticos: 0</td></tr>
+            <tr><td class="rowlead">Soporte al cliente</td><td>Atención L2/L3 conforme a SLA. Reuniones semanales y reportes mensuales con KPIs. Canal directo vía Teams y correo.</td><td>Cumplimiento SLA ≥ 95% · CSAT ≥ 8.5/10 · Resueltos en 1.ª intervención ≥ 70%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h4 style="color:var(--navy-700);font-size:1.02rem;margin-top:24px">Plataforma / Software (SQL Server, IIS, .NET Runtime, Azure DevOps)</h4>
+      <div class="twrap">
+        <table class="dt" style="min-width:680px">
+          <thead><tr><th style="width:150px">Dimensión</th><th>Compromiso</th><th style="width:240px">Métricas</th></tr></thead>
+          <tbody>
+            <tr><td class="rowlead">Capacidad</td><td>SQL Server para hasta 100 conexiones concurrentes. Índices optimizados trimestralmente. Query store activo.</td><td>Queries lentos (&gt;5 s) ≤ 5% · Deadlocks ≤ 2/sem · Tamaño BD monitoreado mensual</td></tr>
+            <tr><td class="rowlead">Disponibilidad</td><td>SQL Server, IIS y servicios Windows con disponibilidad ≥ 99.5%. Monitoreo proactivo con alertas automáticas.</td><td>Uptime SQL ≥ 99.5% · Uptime IIS ≥ 99.5% · Alertas falsas ≤ 5%</td></tr>
+            <tr><td class="rowlead">Seguridad</td><td>Parches de SQL Server y Windows en ventanas programadas. Auditoría de accesos a BD. Cifrado TDE para datos sensibles.</td><td>Parches críticos ≤ 30 días · Auditorías revisadas mensual · Cuentas con permisos excesivos: 0</td></tr>
+            <tr><td class="rowlead">Respaldos</td><td>Respaldo completo diario de BD; logs transaccionales cada 30 min para BD críticas. Almacenamiento separado (BaaS Azure).</td><td>Respaldos BD exitosos ≥ 99.9% · Restore exitoso trimestral · Retención 30 días</td></tr>
+            <tr><td class="rowlead">Mantenimiento</td><td>Actualización de paquetes NuGet y .NET runtime, rebuild de índices SQL, actualización de estadísticas, limpieza de logs.</td><td>NuGet obsoletos ≤ 10% · Fragmentación índices ≤ 30% · Disco disponible ≥ 20%</td></tr>
+            <tr><td class="rowlead">Mantenibilidad</td><td>Procedimientos almacenados documentados. Pipelines CI/CD en Azure DevOps. Ambientes dev, QA y producción separados.</td><td>Despliegues vía CI/CD 100% · Tiempo de despliegue ≤ 15 min · Rollback exitoso ≤ 30 min</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 12 · INVENTARIO DE ACTIVOS ============ -->
+<section class="section" id="activos" data-screen-label="Inventario de Activos">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">12 — Inventario de Activos de Información</span>
+      <h2>9 activos en los 3 procesos del servicio</h2>
+      <p>Inventario de los activos identificados en los procesos de Soporte, Mantenimiento y Modernización. Cada activo se clasifica por tipo, propietario, criticidad y su valoración en Confidencialidad (C), Integridad (I) y Disponibilidad (D).</p>
+      <a class="doc-btn" href="docs/Inventario_Activos_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="kpi-strip" style="margin-bottom:26px">
+      <div class="kpi"><div class="v">9</div><div class="l">Activos de información</div></div>
+      <div class="kpi"><div class="v accent">6</div><div class="l">Activos críticos</div></div>
+      <div class="kpi"><div class="v">3</div><div class="l">Activos no críticos</div></div>
+      <div class="kpi"><div class="v">5</div><div class="l">Tipos de activo</div></div>
+    </div>
+
+    <p class="tscroll-hint">→ Desliza la tabla horizontalmente para ver todas las columnas.</p>
+    <div class="twrap">
+      <table class="dt" style="min-width:1040px">
+        <thead>
+          <tr>
+            <th rowspan="2" style="width:96px">ID</th>
+            <th rowspan="2">Activo</th>
+            <th rowspan="2" style="width:120px">Proceso</th>
+            <th rowspan="2" style="width:150px">Tipo</th>
+            <th rowspan="2" style="width:150px">Propietario</th>
+            <th rowspan="2" style="width:150px">Custodio</th>
+            <th colspan="3" class="center sub">Valoración CIA</th>
+            <th rowspan="2" class="center" style="width:110px">Criticidad</th>
+          </tr>
+          <tr>
+            <th class="center sub" style="width:44px">C</th>
+            <th class="center sub" style="width:44px">I</th>
+            <th class="center sub" style="width:44px">D</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="mono">CT-ACT-01</td><td class="rowlead">Sistema de gestión de tickets (ServiceDesk)</td><td>CT_SOP_01<br><span style="color:var(--faint);font-size:12px">Soporte</span></td><td>Software</td><td>Adm. del Servicio</td><td>Equipo L2/L3</td>
+            <td class="heat h-A">4</td><td class="heat h-A">4</td><td class="heat h-A">4</td><td class="center"><span class="badge b-critico">Crítico</span></td>
+          </tr>
+          <tr>
+            <td class="mono">CT-ACT-02</td><td class="rowlead">Servidor de producción IIS</td><td>CT_SOP_01<br><span style="color:var(--faint);font-size:12px">Soporte</span></td><td>Hardware / Infra.</td><td>Cliente · Infraestructura</td><td>Líder Técnico</td>
+            <td class="heat h-A">4</td><td class="heat h-A">5</td><td class="heat h-A">5</td><td class="center"><span class="badge b-critico">Crítico</span></td>
+          </tr>
+          <tr>
+            <td class="mono">CT-ACT-03</td><td class="rowlead">Base de datos SQL Server (Producción)</td><td>CT_SOP_01<br><span style="color:var(--faint);font-size:12px">Soporte</span></td><td>Información</td><td>Cliente · TI</td><td>DBA / SQL Server</td>
+            <td class="heat h-A">5</td><td class="heat h-A">5</td><td class="heat h-A">5</td><td class="center"><span class="badge b-critico">Crítico</span></td>
+          </tr>
+          <tr>
+            <td class="mono">CT-ACT-04</td><td class="rowlead">Repositorio de código fuente (Azure DevOps)</td><td>CT_MAN_02<br><span style="color:var(--faint);font-size:12px">Mantenimiento</span></td><td>Información</td><td>Líder Técnico</td><td>Equipo Desarrollo .NET</td>
+            <td class="heat h-A">5</td><td class="heat h-A">5</td><td class="heat h-A">4</td><td class="center"><span class="badge b-critico">Crítico</span></td>
+          </tr>
+          <tr>
+            <td class="mono">CT-ACT-05</td><td class="rowlead">Servidor de desarrollo y QA</td><td>CT_MAN_02<br><span style="color:var(--faint);font-size:12px">Mantenimiento</span></td><td>Hardware / Infra.</td><td>Líder Técnico</td><td>Equipo Desarrollo .NET</td>
+            <td class="heat h-M">3</td><td class="heat h-M">3</td><td class="heat h-M">3</td><td class="center"><span class="badge b-na">No crítico</span></td>
+          </tr>
+          <tr>
+            <td class="mono">CT-ACT-06</td><td class="rowlead">Herramienta de análisis de código (SonarQube)</td><td>CT_MAN_02<br><span style="color:var(--faint);font-size:12px">Mantenimiento</span></td><td>Software</td><td>Líder Técnico</td><td>Analista de QA</td>
+            <td class="heat h-B">2</td><td class="heat h-M">3</td><td class="heat h-B">2</td><td class="center"><span class="badge b-na">No crítico</span></td>
+          </tr>
+          <tr>
+            <td class="mono">CT-ACT-07</td><td class="rowlead">Pipeline CI/CD (Azure DevOps)</td><td>CT_MOD_03<br><span style="color:var(--faint);font-size:12px">Modernización</span></td><td>Servicio / Software</td><td>Líder Técnico</td><td>Equipo Desarrollo .NET</td>
+            <td class="heat h-M">3</td><td class="heat h-A">4</td><td class="heat h-A">4</td><td class="center"><span class="badge b-critico">Crítico</span></td>
+          </tr>
+          <tr>
+            <td class="mono">CT-ACT-08</td><td class="rowlead">Ambiente de staging (Azure Cloud)</td><td>CT_MOD_03<br><span style="color:var(--faint);font-size:12px">Modernización</span></td><td>Servicio / Infra.</td><td>Cliente · Arquitectura TI</td><td>Equipo Desarrollo .NET</td>
+            <td class="heat h-M">3</td><td class="heat h-A">4</td><td class="heat h-M">3</td><td class="center"><span class="badge b-critico">Crítico</span></td>
+          </tr>
+          <tr>
+            <td class="mono">CT-ACT-09</td><td class="rowlead">Base de conocimiento y documentación técnica</td><td>CT_MOD_03<br><span style="color:var(--faint);font-size:12px">Modernización</span></td><td>Información</td><td>Adm. del Servicio</td><td>Todo el equipo</td>
+            <td class="heat h-M">3</td><td class="heat h-A">4</td><td class="heat h-B">2</td><td class="center"><span class="badge b-na">No crítico</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="legend">
+      <span class="li"><span class="sw h-A" style="display:grid;place-items:center;font-weight:800;font-size:10px">4-5</span> Alta</span>
+      <span class="li"><span class="sw h-M" style="display:grid;place-items:center;font-weight:800;font-size:10px">3</span> Media</span>
+      <span class="li"><span class="sw h-B" style="display:grid;place-items:center;font-weight:800;font-size:10px">1-2</span> Baja</span>
+      <span class="li" style="margin-left:8px">C = Confidencialidad · I = Integridad · D = Disponibilidad · escala 1-5</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 13 · MATRIZ DE RIESGOS ============ -->
+<section class="section section--soft" id="riesgos" data-screen-label="Matriz de Riesgos">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">13 — Matriz de Riesgos · ISO/IEC 27000</span>
+      <h2>Valoración de activos, amenazas y cálculo del riesgo</h2>
+      <p>Integra la valoración C-I-D de los 9 activos, el análisis de vulnerabilidades y amenazas, el cálculo del riesgo y la identificación de infraestructuras críticas con sus controles.</p>
+      <a class="doc-btn" href="docs/Matriz_Riesgos_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>1 · Valoración de activos (C-I-D)</h3>
+      <p style="color:var(--muted);font-size:0.95rem;margin-bottom:16px">Escala 1-5 por dimensión. TOTAL = C + I + D. La clasificación cualitativa resume la criticidad del activo.</p>
+      <div class="twrap">
+        <table class="dt" style="min-width:680px">
+          <thead><tr><th style="width:120px">ID Proceso</th><th style="width:100px">ID Activo</th><th>Activo de información</th><th class="center" style="width:44px">C</th><th class="center" style="width:44px">I</th><th class="center" style="width:44px">D</th><th class="center" style="width:74px">Total</th><th class="center" style="width:90px">Valoración</th></tr></thead>
+          <tbody>
+            <tr><td class="mono">CT_SOP_01</td><td class="mono">CT-ACT-01</td><td class="rowlead">Sistema de gestión de tickets</td><td class="heat h-A">4</td><td class="heat h-A">4</td><td class="heat h-A">4</td><td class="num strong">12</td><td class="center"><span class="badge b-alta">Alta</span></td></tr>
+            <tr><td class="mono">CT_SOP_01</td><td class="mono">CT-ACT-02</td><td class="rowlead">Servidor de producción IIS</td><td class="heat h-A">4</td><td class="heat h-A">5</td><td class="heat h-A">5</td><td class="num strong">14</td><td class="center"><span class="badge b-alta">Alta</span></td></tr>
+            <tr><td class="mono">CT_SOP_01</td><td class="mono">CT-ACT-03</td><td class="rowlead">Base de datos SQL Server (producción)</td><td class="heat h-A">5</td><td class="heat h-A">5</td><td class="heat h-A">5</td><td class="num strong">15</td><td class="center"><span class="badge b-alta">Alta</span></td></tr>
+            <tr><td class="mono">CT_MAN_02</td><td class="mono">CT-ACT-04</td><td class="rowlead">Repositorio de código fuente (Azure DevOps)</td><td class="heat h-A">5</td><td class="heat h-A">5</td><td class="heat h-A">4</td><td class="num strong">14</td><td class="center"><span class="badge b-alta">Alta</span></td></tr>
+            <tr><td class="mono">CT_MAN_02</td><td class="mono">CT-ACT-05</td><td class="rowlead">Servidor de desarrollo y QA</td><td class="heat h-M">3</td><td class="heat h-M">3</td><td class="heat h-M">3</td><td class="num strong">9</td><td class="center"><span class="badge b-media">Media</span></td></tr>
+            <tr><td class="mono">CT_MAN_02</td><td class="mono">CT-ACT-06</td><td class="rowlead">Herramienta SonarQube</td><td class="heat h-B">2</td><td class="heat h-M">3</td><td class="heat h-B">2</td><td class="num strong">7</td><td class="center"><span class="badge b-media">Media</span></td></tr>
+            <tr><td class="mono">CT_MOD_03</td><td class="mono">CT-ACT-07</td><td class="rowlead">Pipeline CI/CD (Azure DevOps)</td><td class="heat h-M">3</td><td class="heat h-A">4</td><td class="heat h-A">4</td><td class="num strong">11</td><td class="center"><span class="badge b-alta">Alta</span></td></tr>
+            <tr><td class="mono">CT_MOD_03</td><td class="mono">CT-ACT-08</td><td class="rowlead">Ambiente de staging (Azure)</td><td class="heat h-M">3</td><td class="heat h-A">4</td><td class="heat h-M">3</td><td class="num strong">10</td><td class="center"><span class="badge b-alta">Alta</span></td></tr>
+            <tr><td class="mono">CT_MOD_03</td><td class="mono">CT-ACT-09</td><td class="rowlead">Base de conocimiento y documentación</td><td class="heat h-M">3</td><td class="heat h-A">4</td><td class="heat h-B">2</td><td class="num strong">9</td><td class="center"><span class="badge b-media">Media</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>2 · Vulnerabilidades, amenazas, eventos y controles</h3>
+      <div class="twrap">
+        <table class="dt" style="min-width:860px">
+          <thead><tr><th>Vulnerabilidad</th><th>Amenaza</th><th>Evento de amenaza (riesgo)</th><th style="width:230px">Controles</th></tr></thead>
+          <tbody>
+            <tr><td>Acceso remoto VPN sin MFA completo, credenciales compartidas</td><td>Ciberataque, robo de credenciales</td><td class="rowlead">Acceso no autorizado a infraestructura del cliente</td><td>MFA obligatorio, VPN cifrada, rotación de credenciales (90 días)</td></tr>
+            <tr><td>Cobertura insuficiente de pruebas de regresión en apps legacy</td><td>Error humano, defecto de código</td><td class="rowlead">Caída de producción por despliegue fallido</td><td>Pipeline CI/CD, pruebas de regresión, plan de rollback</td></tr>
+            <tr><td>Conocimiento crítico concentrado en pocos recursos</td><td>Rotación de personal, indisponibilidad</td><td class="rowlead">Pérdida de continuidad operativa del servicio</td><td>Base de conocimiento documentada, pares de trabajo</td></tr>
+            <tr><td>Código fuente descargado en equipos locales sin DLP</td><td>Fuga de información, robo de datos</td><td class="rowlead">Exposición de información confidencial del cliente</td><td>Cifrado de disco, DLP, NDA individuales</td></tr>
+            <tr><td>Dependencias legacy de .NET Framework sin actualizar</td><td>Obsolescencia, explotación de CVEs</td><td class="rowlead">Vulnerabilidad de seguridad en aplicaciones</td><td>Escaneo de CVE, remediación priorizada, migración</td></tr>
+            <tr><td>Equipo reducido con dedicaciones parciales</td><td>Sobrecarga de incidentes simultáneos</td><td class="rowlead">Incumplimiento de SLA</td><td>Escalamiento, automatización, guardias rotativas</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="split--even" style="display:grid;gap:28px">
+      <div class="block" style="margin-top:48px">
+        <h3 class="subhead"><span class="bar"></span>3 · Análisis de vulnerabilidades</h3>
+        <p style="color:var(--muted);font-size:0.9rem;margin-bottom:14px">Severidad × Exposición (escala 1-5).</p>
+        <div class="twrap">
+          <table class="dt" style="min-width:0">
+            <thead><tr><th>Vulnerabilidad</th><th class="center" style="width:84px">Sev.</th><th class="center" style="width:84px">Exp.</th></tr></thead>
+            <tbody>
+              <tr><td>Acceso remoto VPN sin MFA completo</td><td class="heat h-A">4</td><td class="heat h-M">3</td></tr>
+              <tr><td>Pruebas de regresión insuficientes en legacy</td><td class="heat h-A">4</td><td class="heat h-M">3</td></tr>
+              <tr><td>Conocimiento concentrado en pocos recursos</td><td class="heat h-M">3</td><td class="heat h-M">3</td></tr>
+              <tr><td>Código fuente local sin DLP</td><td class="heat h-A">4</td><td class="heat h-B">2</td></tr>
+              <tr><td>Dependencias legacy .NET sin actualizar</td><td class="heat h-M">3</td><td class="heat h-M">3</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="block" style="margin-top:48px">
+        <h3 class="subhead"><span class="bar"></span>4 · Análisis de amenazas</h3>
+        <p style="color:var(--muted);font-size:0.9rem;margin-bottom:14px">Capacidad × Motivación (escala 1-5).</p>
+        <div class="twrap">
+          <table class="dt" style="min-width:0">
+            <thead><tr><th>Amenaza</th><th class="center" style="width:84px">Cap.</th><th class="center" style="width:84px">Mot.</th></tr></thead>
+            <tbody>
+              <tr><td>Error humano</td><td class="heat h-B">2</td><td class="heat h-B">2</td></tr>
+              <tr><td>Ciberataque</td><td class="heat h-M">3</td><td class="heat h-M">3</td></tr>
+              <tr><td>Fallo de red / infraestructura</td><td class="heat h-B">2</td><td class="heat h-B">2</td></tr>
+              <tr><td>Rotación de personal</td><td class="heat h-B">2</td><td class="heat h-M">3</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>5 · Cálculo del riesgo</h3>
+      <p style="color:var(--muted);font-size:0.95rem;margin-bottom:16px">Riesgo Total = Amenaza × Vulnerabilidad × Probabilidad × Impacto (TOTAL C-I-D del activo).</p>
+      <div class="twrap">
+        <table class="dt" style="min-width:760px">
+          <thead><tr><th>Evento de riesgo</th><th class="center" style="width:90px">Amenaza</th><th class="center" style="width:110px">Vulnerab.</th><th class="center" style="width:100px">Probab.</th><th class="center" style="width:90px">Impacto</th><th class="num" style="width:100px">Riesgo</th><th class="center" style="width:90px">Nivel</th></tr></thead>
+          <tbody>
+            <tr><td class="rowlead">Acceso no autorizado a infraestructura</td><td class="center">5</td><td class="center">5</td><td class="center">3</td><td class="center">14</td><td class="num strong">1050</td><td class="center"><span class="badge b-alta">Alto</span></td></tr>
+            <tr><td class="rowlead">Caída de producción por despliegue fallido</td><td class="center">3</td><td class="center">4</td><td class="center">3</td><td class="center">15</td><td class="num strong">540</td><td class="center"><span class="badge b-media">Medio</span></td></tr>
+            <tr><td class="rowlead">Pérdida de continuidad operativa</td><td class="center">4</td><td class="center">4</td><td class="center">2</td><td class="center">12</td><td class="num strong">384</td><td class="center"><span class="badge b-baja">Bajo</span></td></tr>
+            <tr><td class="rowlead">Exposición de información confidencial</td><td class="center">5</td><td class="center">4</td><td class="center">2</td><td class="center">14</td><td class="num strong">560</td><td class="center"><span class="badge b-media">Medio</span></td></tr>
+            <tr><td class="rowlead">Vulnerabilidad de seguridad en aplicaciones</td><td class="center">3</td><td class="center">4</td><td class="center">2</td><td class="center">11</td><td class="num strong">264</td><td class="center"><span class="badge b-baja">Bajo</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="legend">
+        <span class="li"><span class="sw b-alta"></span> Riesgo Alto ≥ 600</span>
+        <span class="li"><span class="sw b-media"></span> Riesgo Medio 400-599</span>
+        <span class="li"><span class="sw b-baja"></span> Riesgo Bajo &lt; 400</span>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>6 · Valoración de impacto por activo</h3>
+      <p style="color:var(--muted);font-size:0.95rem;margin-bottom:16px">Evaluación del impacto por área geográfica, periodo de afectación, infraestructuras críticas y campos afectados (escala 1-3).</p>
+      <div class="twrap">
+        <table class="dt" style="min-width:780px">
+          <thead><tr><th style="width:100px">ID Activo</th><th>Activo</th><th class="center" style="width:90px">Área geo.</th><th class="center" style="width:90px">Periodo</th><th class="center" style="width:90px">Impacto</th><th class="center" style="width:110px">Infra. críticas</th><th class="center" style="width:100px">Campos afect.</th></tr></thead>
+          <tbody>
+            <tr><td class="mono">CT-ACT-01</td><td class="rowlead">Sistema de gestión de tickets</td><td class="heat h-A">3</td><td class="heat h-M">2</td><td class="heat h-A">3</td><td class="heat h-M">2</td><td class="heat h-M">2</td></tr>
+            <tr><td class="mono">CT-ACT-02</td><td class="rowlead">Servidor de producción IIS</td><td class="heat h-A">3</td><td class="heat h-A">3</td><td class="heat h-A">3</td><td class="heat h-A">3</td><td class="heat h-A">3</td></tr>
+            <tr><td class="mono">CT-ACT-03</td><td class="rowlead">Base de datos SQL Server</td><td class="heat h-A">3</td><td class="heat h-A">3</td><td class="heat h-A">3</td><td class="heat h-A">3</td><td class="heat h-A">3</td></tr>
+            <tr><td class="mono">CT-ACT-04</td><td class="rowlead">Repositorio de código fuente</td><td class="heat h-A">3</td><td class="heat h-M">2</td><td class="heat h-A">3</td><td class="heat h-M">2</td><td class="heat h-M">2</td></tr>
+            <tr><td class="mono">CT-ACT-05</td><td class="rowlead">Servidor de desarrollo y QA</td><td class="heat h-M">2</td><td class="heat h-M">2</td><td class="heat h-M">2</td><td class="heat h-B">1</td><td class="heat h-M">2</td></tr>
+            <tr><td class="mono">CT-ACT-06</td><td class="rowlead">SonarQube</td><td class="heat h-M">2</td><td class="heat h-B">1</td><td class="heat h-M">2</td><td class="heat h-B">1</td><td class="heat h-B">1</td></tr>
+            <tr><td class="mono">CT-ACT-07</td><td class="rowlead">Pipeline CI/CD</td><td class="heat h-M">2</td><td class="heat h-M">2</td><td class="heat h-A">3</td><td class="heat h-M">2</td><td class="heat h-M">2</td></tr>
+            <tr><td class="mono">CT-ACT-08</td><td class="rowlead">Ambiente de staging (Azure)</td><td class="heat h-M">2</td><td class="heat h-M">2</td><td class="heat h-M">2</td><td class="heat h-M">2</td><td class="heat h-M">2</td></tr>
+            <tr><td class="mono">CT-ACT-09</td><td class="rowlead">Base de conocimiento</td><td class="heat h-M">2</td><td class="heat h-M">2</td><td class="heat h-M">2</td><td class="heat h-B">1</td><td class="heat h-M">2</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>7 · Identificación de infraestructuras críticas</h3>
+      <div class="twrap">
+        <table class="dt" style="min-width:720px">
+          <thead><tr><th>Infraestructura crítica detectada</th><th class="center" style="width:130px">Grado de criticidad</th><th style="width:300px">Controles a implementar</th></tr></thead>
+          <tbody>
+            <tr><td class="rowlead">Servidor de producción IIS</td><td class="center"><span class="badge b-critico">V</span></td><td>Redundancia, balanceo de carga, UPS, monitoreo 24/7</td></tr>
+            <tr><td class="rowlead">Base de datos SQL Server (producción)</td><td class="center"><span class="badge b-critico">V</span></td><td>Cifrado TDE, respaldos diarios, control de roles, auditoría</td></tr>
+            <tr><td class="rowlead">Repositorio de código fuente (Azure DevOps)</td><td class="center"><span class="badge b-critico">V</span></td><td>Repositorios privados, control de cambios, MFA, versionado</td></tr>
+            <tr><td class="rowlead">Sistema de gestión de tickets</td><td class="center"><span class="badge b-alto">IV</span></td><td>Respaldos, control de accesos, redundancia en la nube</td></tr>
+            <tr><td class="rowlead">Pipeline CI/CD (Azure DevOps)</td><td class="center"><span class="badge b-alto">IV</span></td><td>Control de versiones, plan de rollback, validaciones automáticas</td></tr>
+            <tr><td class="rowlead">Ambiente de staging (Azure)</td><td class="center"><span class="badge b-alto">IV</span></td><td>Aislamiento de producción, respaldos, control de acceso</td></tr>
+            <tr><td class="rowlead">Servidor de desarrollo y QA</td><td class="center"><span class="badge b-media">III</span></td><td>Respaldos periódicos, control de accesos</td></tr>
+            <tr><td class="rowlead">Base de conocimiento y documentación</td><td class="center"><span class="badge b-media">III</span></td><td>Integridad de documentos, respaldo en la nube, control de versiones</td></tr>
+            <tr><td class="rowlead">Herramienta SonarQube</td><td class="center"><span class="badge b-baja">II</span></td><td>Respaldo de configuración, control de accesos</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tnote">Grado de criticidad en escala romana: I (menor) → V (mayor).</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 14 · BIA TÁCTICO ============ -->
+<section class="section" id="bia-tactico" data-screen-label="BIA Táctico">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">14 — BIA Táctico · ISO 22301</span>
+      <h2>Impacto al negocio por proceso</h2>
+      <p>Análisis del efecto de una interrupción sobre los 3 procesos del servicio, con el máximo periodo de interrupción tolerable (MTPD), el tiempo de recuperación objetivo (RTO) y el objetivo mínimo de continuidad (MBCO).</p>
+      <a class="doc-btn" href="docs/BIA_Tactico_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="proc-tabs" data-tabs="#bia-panels">
+      <button class="proc-tab is-active" data-target="bia-p1"><span class="pid">CT_SOP_01</span> Soporte</button>
+      <button class="proc-tab" data-target="bia-p2"><span class="pid">CT_MAN_02</span> Mantenimiento</button>
+      <button class="proc-tab" data-target="bia-p3"><span class="pid">CT_MOD_03</span> Modernización</button>
+    </div>
+
+    <div id="bia-panels">
+      <!-- P1 -->
+      <div class="proc-panel is-active" id="bia-p1">
+        <h3 class="subhead"><span class="bar"></span>CT_SOP_01 — Soporte y resolución de incidentes</h3>
+        <div class="kpi-strip">
+          <div class="kpi"><div class="v accent">&lt; 2 hrs</div><div class="l">MTPD / MAO</div></div>
+          <div class="kpi"><div class="v">&lt; 2 hrs</div><div class="l">RTO</div></div>
+          <div class="kpi"><div class="v">P1 · 2 personas</div><div class="l">MBCO mínimo</div></div>
+          <div class="kpi"><div class="v">Crítico</div><div class="l">Nivel de criticidad</div></div>
+        </div>
+        <p class="tscroll-hint">→ Desliza la tabla horizontalmente.</p>
+        <div class="twrap">
+          <table class="dt" style="min-width:880px">
+            <thead><tr><th style="width:210px">Tipo de impacto</th><th class="center">0-5 min</th><th class="center">5-15 min</th><th class="center">15-30 min</th><th class="center">1-2 hrs</th><th class="center">2-5 hrs</th><th class="center">5-12 hrs</th><th class="center">12-24 hrs</th><th class="center">1-2 días</th></tr></thead>
+            <tbody>
+              <tr><td class="rowlead">Pérdida económica</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Incumplimiento legal/regulatorio</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td></tr>
+              <tr><td class="rowlead">Daño a la reputación/imagen</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Afectación del servicio al cliente</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td><td class="heat h-A">A</td><td class="heat h-A">A</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Pérdida de calidad</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Pérdida de productividad</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td><td class="heat h-A">A</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Pérdida de control</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Daño a la salud/bienestar</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="split" style="margin-top:24px">
+          <div class="card"><h4>Objetivo mínimo de continuidad (MBCO)</h4><p>Mantener la atención de al menos los incidentes de severidad crítica (P1) con un equipo mínimo de 2 personas (1 desarrollador senior L3 + administrador del servicio), garantizando la operación de las aplicaciones críticas del cliente aunque se difieran temporalmente los incidentes de menor prioridad.</p></div>
+          <div class="card"><h4>Continuidad operacional e interdependencias</h4><ul class="flist"><li>Operación remota completa vía VPN y guardias rotativas 24/7 para críticos.</li><li>Base de conocimiento documentada y soporte Microsoft Premier de respaldo.</li><li>Depende de la mesa de ayuda L1 y de la disponibilidad de IIS y SQL Server.</li><li>Interactúa con Mantenimiento (CT_MAN_02) ante correcciones permanentes.</li></ul></div>
+        </div>
+      </div>
+
+      <!-- P2 -->
+      <div class="proc-panel" id="bia-p2">
+        <h3 class="subhead"><span class="bar"></span>CT_MAN_02 — Mantenimiento y evolución de aplicaciones</h3>
+        <div class="kpi-strip">
+          <div class="kpi"><div class="v accent">&lt; 24 hrs</div><div class="l">MTPD / MAO</div></div>
+          <div class="kpi"><div class="v">&lt; 12 hrs</div><div class="l">RTO</div></div>
+          <div class="kpi"><div class="v">1 dev senior</div><div class="l">MBCO mínimo</div></div>
+          <div class="kpi"><div class="v">Alto</div><div class="l">Nivel de criticidad</div></div>
+        </div>
+        <p class="tscroll-hint">→ Desliza la tabla horizontalmente.</p>
+        <div class="twrap">
+          <table class="dt" style="min-width:880px">
+            <thead><tr><th style="width:210px">Tipo de impacto</th><th class="center">0-5 min</th><th class="center">5-15 min</th><th class="center">15-30 min</th><th class="center">1-2 hrs</th><th class="center">2-5 hrs</th><th class="center">5-12 hrs</th><th class="center">12-24 hrs</th><th class="center">1-2 días</th></tr></thead>
+            <tbody>
+              <tr><td class="rowlead">Pérdida económica</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td></tr>
+              <tr><td class="rowlead">Incumplimiento legal/regulatorio</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td></tr>
+              <tr><td class="rowlead">Daño a la reputación/imagen</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Afectación del servicio al cliente</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Pérdida de calidad</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Pérdida de productividad</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td><td class="heat h-A">A</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Pérdida de control</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Daño a la salud/bienestar</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="split" style="margin-top:24px">
+          <div class="card"><h4>Objetivo mínimo de continuidad (MBCO)</h4><p>Garantizar la capacidad de ejecutar el mantenimiento correctivo de defectos críticos (que afecten la operación) con al menos 1 desarrollador senior, difiriendo el mantenimiento preventivo y adaptativo no urgente hasta restablecer la capacidad completa del equipo.</p></div>
+          <div class="card"><h4>Continuidad operacional e interdependencias</h4><ul class="flist"><li>Pipeline CI/CD automatizado para despliegues controlados sin intervención extensa.</li><li>Repositorio en la nube (Azure DevOps) accesible de forma remota.</li><li>Recibe insumos de Soporte (defectos recurrentes) y del negocio (solicitudes de cambio).</li><li>Alimenta a Modernización (CT_MOD_03) cuando un adaptativo evoluciona a migración.</li></ul></div>
+        </div>
+      </div>
+
+      <!-- P3 -->
+      <div class="proc-panel" id="bia-p3">
+        <h3 class="subhead"><span class="bar"></span>CT_MOD_03 — Modernización e innovación tecnológica</h3>
+        <div class="kpi-strip">
+          <div class="kpi"><div class="v accent">&lt; 5 días</div><div class="l">MTPD / MAO</div></div>
+          <div class="kpi"><div class="v">&lt; 2 días</div><div class="l">RTO</div></div>
+          <div class="kpi"><div class="v">Líder + 1 dev</div><div class="l">MBCO mínimo</div></div>
+          <div class="kpi"><div class="v">Medio</div><div class="l">Nivel de criticidad</div></div>
+        </div>
+        <p class="tscroll-hint">→ Desliza la tabla horizontalmente.</p>
+        <div class="twrap">
+          <table class="dt" style="min-width:880px">
+            <thead><tr><th style="width:210px">Tipo de impacto</th><th class="center">0-5 min</th><th class="center">5-15 min</th><th class="center">15-30 min</th><th class="center">1-2 hrs</th><th class="center">2-5 hrs</th><th class="center">5-12 hrs</th><th class="center">12-24 hrs</th><th class="center">1-2 días</th></tr></thead>
+            <tbody>
+              <tr><td class="rowlead">Pérdida económica</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td></tr>
+              <tr><td class="rowlead">Incumplimiento legal/regulatorio</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td></tr>
+              <tr><td class="rowlead">Daño a la reputación/imagen</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td></tr>
+              <tr><td class="rowlead">Afectación del servicio al cliente</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Pérdida de calidad</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Pérdida de productividad</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td><td class="heat h-A">A</td><td class="heat h-A">A</td></tr>
+              <tr><td class="rowlead">Pérdida de control</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-B">B</td><td class="heat h-B">B</td><td class="heat h-M">M</td><td class="heat h-M">M</td></tr>
+              <tr><td class="rowlead">Daño a la salud/bienestar</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td><td class="heat h-N">N</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="split" style="margin-top:24px">
+          <div class="card"><h4>Objetivo mínimo de continuidad (MBCO)</h4><p>Mantener el avance de los hitos críticos de migración ya comprometidos en la hoja de ruta con al menos el líder técnico y 1 desarrollador, pausando temporalmente las iniciativas de innovación y nuevas funcionalidades no comprometidas hasta restablecer la capacidad completa.</p></div>
+          <div class="card"><h4>Continuidad operacional e interdependencias</h4><ul class="flist"><li>Hoja de ruta documentada que permite retomar el trabajo en el punto exacto.</li><li>POCs y migraciones versionadas en Azure DevOps; plan de rollback probado.</li><li>Recibe insumos de Mantenimiento (apps candidatas) y de la dirección de TI (hoja de ruta).</li><li>Retroalimenta a Soporte y Mantenimiento con las aplicaciones modernizadas.</li></ul></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="legend">
+      <span class="li"><span class="sw h-A"></span> Alto (A)</span>
+      <span class="li"><span class="sw h-M"></span> Medio (M)</span>
+      <span class="li"><span class="sw h-B"></span> Bajo (B)</span>
+      <span class="li"><span class="sw h-N" style="border:1px solid var(--border)"></span> No aplica (N)</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 15 · BIA OPERACIONAL ============ -->
+<section class="section section--soft" id="bia-operacional" data-screen-label="BIA Operacional">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">15 — BIA Operacional · ISO 22301</span>
+      <h2>Recursos críticos y prioridades de recuperación</h2>
+      <p>Identificación y priorización de los recursos de soporte necesarios para la continuidad del servicio (requisito 8.2.2 de ISO 22301:2012). Prioridad <strong>1</strong> = mayor; <strong>3</strong> = menor.</p>
+      <a class="doc-btn" href="docs/BIA_Operacional_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="block">
+      <div class="cards grid-2" style="margin-bottom:8px">
+        <div>
+          <h4 class="subhead" style="font-size:1.02rem"><span class="bar"></span>Personal / Gente</h4>
+          <div class="twrap"><table class="dt" style="min-width:0"><thead><tr><th>Recurso</th><th class="center" style="width:90px">Prioridad</th></tr></thead><tbody>
+            <tr><td>Líder Técnico / Arquitecto .NET</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Desarrolladores .NET Senior (×2)</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Administrador del Servicio</td><td class="center"><span class="badge b-media">2</span></td></tr>
+            <tr><td>Desarrollador .NET Semi-Senior</td><td class="center"><span class="badge b-media">2</span></td></tr>
+            <tr><td>Analista de QA</td><td class="center"><span class="badge b-baja">3</span></td></tr>
+            <tr><td>DBA / Especialista SQL Server</td><td class="center"><span class="badge b-media">2</span></td></tr>
+          </tbody></table></div>
+        </div>
+        <div>
+          <h4 class="subhead" style="font-size:1.02rem"><span class="bar"></span>Información y datos</h4>
+          <div class="twrap"><table class="dt" style="min-width:0"><thead><tr><th>Información</th><th class="center" style="width:90px">Prioridad</th></tr></thead><tbody>
+            <tr><td>Código fuente de aplicaciones .NET</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Base de datos SQL Server (producción)</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Credenciales y accesos (VPN, AD)</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Documentación técnica de aplicaciones</td><td class="center"><span class="badge b-media">2</span></td></tr>
+            <tr><td>Base de conocimiento de incidentes</td><td class="center"><span class="badge b-media">2</span></td></tr>
+            <tr><td>Reportes de servicio y KPIs</td><td class="center"><span class="badge b-baja">3</span></td></tr>
+          </tbody></table></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="cards grid-2" style="margin-bottom:8px">
+        <div>
+          <h4 class="subhead" style="font-size:1.02rem"><span class="bar"></span>Sistemas de información y comunicaciones</h4>
+          <div class="twrap"><table class="dt" style="min-width:0"><thead><tr><th>Sistema / componente TIC</th><th class="center" style="width:90px">Prioridad</th></tr></thead><tbody>
+            <tr><td>Servidor de producción IIS</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Base de datos SQL Server</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Azure DevOps (repos + CI/CD)</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>VPN site-to-site</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Sistema de gestión de tickets</td><td class="center"><span class="badge b-media">2</span></td></tr>
+            <tr><td>Microsoft Teams / correo</td><td class="center"><span class="badge b-media">2</span></td></tr>
+          </tbody></table></div>
+        </div>
+        <div>
+          <h4 class="subhead" style="font-size:1.02rem"><span class="bar"></span>Instalaciones y equipamiento</h4>
+          <div class="twrap"><table class="dt" style="min-width:0"><thead><tr><th>Instalación / equipamiento</th><th class="center" style="width:90px">Prioridad</th></tr></thead><tbody>
+            <tr><td>Energía eléctrica (con UPS / no-break)</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Servicio de Internet</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Laptops del equipo consultor</td><td class="center"><span class="badge b-media">2</span></td></tr>
+            <tr><td>Servidor de desarrollo y QA</td><td class="center"><span class="badge b-media">2</span></td></tr>
+            <tr><td>Monitores y periféricos</td><td class="center"><span class="badge b-baja">3</span></td></tr>
+          </tbody></table></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="cards grid-3" style="margin-bottom:8px">
+        <div>
+          <h4 class="subhead" style="font-size:1.02rem"><span class="bar"></span>Edificios y ambiente</h4>
+          <div class="twrap"><table class="dt" style="min-width:0"><thead><tr><th>Ambiente de trabajo</th><th class="center" style="width:60px">Prio.</th></tr></thead><tbody>
+            <tr><td>Acceso remoto (VPN / home office)</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Oficina de CuriTech</td><td class="center"><span class="badge b-media">2</span></td></tr>
+            <tr><td>Sitio del cliente (presencial)</td><td class="center"><span class="badge b-baja">3</span></td></tr>
+          </tbody></table></div>
+        </div>
+        <div>
+          <h4 class="subhead" style="font-size:1.02rem"><span class="bar"></span>Finanzas</h4>
+          <div class="twrap"><table class="dt" style="min-width:0"><thead><tr><th>Recurso financiero</th><th class="center" style="width:60px">Prio.</th></tr></thead><tbody>
+            <tr><td>Presupuesto operativo ($282K MXN/mes)</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Contratos de servicios cloud (Azure)</td><td class="center"><span class="badge b-media">2</span></td></tr>
+            <tr><td>Fondo para licencias y herramientas</td><td class="center"><span class="badge b-media">2</span></td></tr>
+          </tbody></table></div>
+        </div>
+        <div>
+          <h4 class="subhead" style="font-size:1.02rem"><span class="bar"></span>Proveedores y socios</h4>
+          <div class="twrap"><table class="dt" style="min-width:0"><thead><tr><th>Proveedor / socio</th><th class="center" style="width:60px">Prio.</th></tr></thead><tbody>
+            <tr><td>Microsoft (Azure, licencias .NET/SQL)</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Proveedor de Internet / conectividad</td><td class="center"><span class="badge b-alta">1</span></td></tr>
+            <tr><td>Soporte Microsoft Premier</td><td class="center"><span class="badge b-media">2</span></td></tr>
+            <tr><td>Proveedor de backup como servicio</td><td class="center"><span class="badge b-media">2</span></td></tr>
+          </tbody></table></div>
+        </div>
+      </div>
+      <p class="tnote">Transportación — Traslado al sitio del cliente (solo intervenciones presenciales puntuales): prioridad 3, dado que el servicio es mayormente remoto.</p>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>Punto de Recuperación Objetivo (RPO)</h3>
+      <div class="twrap">
+        <table class="dt" style="min-width:560px">
+          <thead><tr><th>Activo de información</th><th class="center" style="width:120px">RPO</th><th style="width:280px">Estrategia de respaldo</th></tr></thead>
+          <tbody>
+            <tr><td class="rowlead">Base de datos SQL Server (producción)</td><td class="center"><span class="badge b-media">≤ 24 horas</span></td><td>Respaldo diario + logs cada 30 min</td></tr>
+            <tr><td class="rowlead">Código fuente (Azure DevOps)</td><td class="center"><span class="badge b-baja">≤ 1 hora</span></td><td>Versionado Git continuo en la nube</td></tr>
+            <tr><td class="rowlead">Documentación técnica y base de conocimiento</td><td class="center"><span class="badge b-media">≤ 24 horas</span></td><td>Respaldo diario en la nube (BaaS)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 16 · PLAN DE CONTINUIDAD ============ -->
+<section class="section" id="continuidad" data-screen-label="Plan de Continuidad">
+  <div class="container">
+    <div class="shead">
+      <span class="shead__num">16 — Plan de Continuidad del Negocio · ISO 22301</span>
+      <h2>Respuesta, recuperación y resiliencia</h2>
+      <p>Garantiza la continuidad operativa ante incidentes tecnológicos, de seguridad o de infraestructura, manteniendo los niveles de servicio (SLA) y reduciendo el impacto al negocio del cliente. Se apoya en el BIA, la Matriz de Riesgos y el Inventario de Activos.</p>
+      <a class="doc-btn" href="docs/Plan_Continuidad_CuriTech.pdf" target="_blank" rel="noopener"><span class="doc-btn__ico">PDF</span>Ver documento completo<span class="doc-btn__arr" aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>Procesos críticos identificados (del BIA)</h3>
+      <div class="cards grid-3">
+        <div class="card card--hover"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><span class="tag">CT_SOP_01</span><span class="badge b-critico">Crítico</span></div><h4>Soporte y resolución de incidentes</h4><p style="margin-top:8px">MTPD <strong>&lt; 2 hrs</strong></p></div>
+        <div class="card card--hover"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><span class="tag">CT_MAN_02</span><span class="badge b-alto">Alto</span></div><h4>Mantenimiento y evolución</h4><p style="margin-top:8px">MTPD <strong>&lt; 24 hrs</strong></p></div>
+        <div class="card card--hover"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><span class="tag">CT_MOD_03</span><span class="badge b-medio">Medio</span></div><h4>Modernización e innovación</h4><p style="margin-top:8px">MTPD <strong>&lt; 5 días</strong></p></div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3 class="subhead"><span class="bar"></span>Escenarios de interrupción y estrategias</h3>
+      <div class="cards grid-2">
+        <div class="scn">
+          <div class="scn__h"><span class="scn__n">1</span><h4>Falla en infraestructura (IIS / SQL Server)</h4></div>
+          <dl>
+            <div><dt>Impacto</dt><dd>Interrupción de las aplicaciones .NET en producción y de la atención de incidentes.</dd></div>
+            <div><dt>Procesos</dt><dd>Soporte, Mantenimiento.</dd></div>
+            <div><dt>Activos</dt><dd>Servidor IIS (CT-ACT-02), BD SQL Server (CT-ACT-03).</dd></div>
+            <div><dt>Estrategia</dt><dd>Activación de respaldos, redundancia y restauración desde backup; uso de staging como contingencia temporal.</dd></div>
+          </dl>
+        </div>
+        <div class="scn">
+          <div class="scn__h"><span class="scn__n">2</span><h4>Incidente de seguridad / fuga de información</h4></div>
+          <dl>
+            <div><dt>Impacto</dt><dd>Riesgo legal, reputacional y de incumplimiento de NDA.</dd></div>
+            <div><dt>Procesos</dt><dd>Todos (transversal).</dd></div>
+            <div><dt>Activos</dt><dd>Código fuente (CT-ACT-04), BD SQL Server (CT-ACT-03).</dd></div>
+            <div><dt>Estrategia</dt><dd>Plan de respuesta a incidentes, aislamiento de sistemas, rotación de credenciales y análisis forense.</dd></div>
+          </dl>
+        </div>
+        <div class="scn">
+          <div class="scn__h"><span class="scn__n">3</span><h4>Indisponibilidad de personal clave</h4></div>
+          <dl>
+            <div><dt>Impacto</dt><dd>Retrasos en soporte, mantenimiento y migraciones; pérdida de conocimiento crítico.</dd></div>
+            <div><dt>Procesos</dt><dd>Soporte, Mantenimiento, Modernización.</dd></div>
+            <div><dt>Activos</dt><dd>Personal especializado (Líder Técnico, Desarrolladores Senior).</dd></div>
+            <div><dt>Estrategia</dt><dd>Redistribución de roles, activación de pares de trabajo (backup) y consulta de la base de conocimiento.</dd></div>
+          </dl>
+        </div>
+        <div class="scn">
+          <div class="scn__h"><span class="scn__n">4</span><h4>Pérdida de conectividad (VPN / Internet)</h4></div>
+          <dl>
+            <div><dt>Impacto</dt><dd>Imposibilidad de acceder remotamente a la infraestructura del cliente.</dd></div>
+            <div><dt>Procesos</dt><dd>Soporte, Mantenimiento.</dd></div>
+            <div><dt>Activos</dt><dd>VPN site-to-site, servicio de Internet.</dd></div>
+            <div><dt>Estrategia</dt><dd>Conexión de respaldo (enlace secundario o datos móviles), trabajo offline y reanudación al restablecer el enlace.</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="note"><i class="ni">!</i><div><b>Escenario adicional — Pérdida de datos:</b> restauración desde respaldos cifrados (RPO ≤ 24 hrs para BD, ≤ 1 hr para código).</div></div>
+    </div>
+
+    <div class="split" style="margin-top:48px">
+      <div class="block" style="margin-top:0">
+        <h3 class="subhead"><span class="bar"></span>Tiempos de recuperación (RTO / RPO)</h3>
+        <div class="twrap">
+          <table class="dt" style="min-width:0">
+            <thead><tr><th>Proceso / Activo</th><th class="center" style="width:90px">RTO</th><th class="center" style="width:100px">RPO</th></tr></thead>
+            <tbody>
+              <tr><td class="rowlead">Soporte y resolución de incidentes</td><td class="center"><span class="badge b-baja">&lt; 2 hrs</span></td><td class="center">N/A</td></tr>
+              <tr><td class="rowlead">Base de datos SQL Server (producción)</td><td class="center"><span class="badge b-baja">&lt; 4 hrs</span></td><td class="center">≤ 24 hrs</td></tr>
+              <tr><td class="rowlead">Servidor de producción IIS</td><td class="center"><span class="badge b-baja">&lt; 2 hrs</span></td><td class="center">N/A</td></tr>
+              <tr><td class="rowlead">Repositorio de código fuente</td><td class="center"><span class="badge b-baja">&lt; 1 hr</span></td><td class="center">≤ 1 hr</td></tr>
+              <tr><td class="rowlead">Mantenimiento de aplicaciones</td><td class="center"><span class="badge b-media">&lt; 12 hrs</span></td><td class="center">≤ 24 hrs</td></tr>
+              <tr><td class="rowlead">Modernización / migraciones</td><td class="center"><span class="badge b-media">&lt; 2 días</span></td><td class="center">≤ 24 hrs</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="block" style="margin-top:0">
+        <h3 class="subhead"><span class="bar"></span>Roles y responsabilidades</h3>
+        <div class="twrap">
+          <table class="dt" style="min-width:0">
+            <thead><tr><th>Rol</th><th>Responsabilidad</th></tr></thead>
+            <tbody>
+              <tr><td class="rowlead">Administrador del Servicio</td><td>Activar el plan de continuidad y coordinar la respuesta general.</td></tr>
+              <tr><td class="rowlead">Líder Técnico / Arquitecto .NET</td><td>Dirigir la recuperación técnica y las decisiones de arquitectura.</td></tr>
+              <tr><td class="rowlead">Desarrolladores .NET Senior</td><td>Restaurar servicios, ejecutar rollback y recuperar aplicaciones.</td></tr>
+              <tr><td class="rowlead">DBA / Especialista SQL Server</td><td>Restaurar bases de datos desde respaldos y validar integridad.</td></tr>
+              <tr><td class="rowlead">Analista de QA</td><td>Validar la funcionalidad de los servicios recuperados.</td></tr>
+              <tr><td class="rowlead">Responsable de Seguridad</td><td>Contención, aislamiento y análisis de incidentes de seguridad.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="note"><i class="ni">i</i><div><b>Pruebas y actualización:</b> el plan se prueba al menos una vez al año mediante simulacros de interrupción controlados que validan los tiempos RTO/RPO. La revisión formal es semestral o ante cualquier incidente mayor, documentando las lecciones aprendidas.</div></div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__top">
+      <div>
+        <div class="brand"><span class="brand__mark"></span>Curi<span>Tech</span></div>
+        <p>Consultoría en TI especializada en el ecosistema Microsoft .NET. Soporte, mantenimiento y evolución de aplicaciones críticas bajo un marco completo de gobierno de TI.</p>
+        <div class="footer__chips" style="margin-top:18px">
+          <span class="c">COBIT 2019</span><span class="c">ITIL</span><span class="c">ISO/IEC 27000</span><span class="c">ISO 22301</span>
+        </div>
+      </div>
+      <div>
+        <h5>Secciones</h5>
+        <ul>
+          <li><a href="#introduccion">Introducción</a></li>
+          <li><a href="#servicio">Descripción del servicio</a></li>
+          <li><a href="#metas-corp">Metas y cascada</a></li>
+          <li><a href="#caso">Caso de negocio</a></li>
+          <li><a href="#riesgos">Matriz de riesgos</a></li>
+          <li><a href="#continuidad">Plan de continuidad</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Equipo · Grupo 7CV4</h5>
+        <div class="footer__team">
+          <div><div class="m">Hernández Díaz Roberto Ángel</div><div class="role">Desarrollador .NET Senior</div></div>
+          <div><div class="m">Jiménez Bernal Ernesto Amador</div><div class="role">Líder Técnico / Arquitecto .NET</div></div>
+          <div><div class="m">Pérez Hernández Tony Saifi</div><div class="role">Desarrollador .NET Senior</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>CuriTech · Grupo 7CV4 · ESCOM-IPN — Entregable integrador de IT Governance</span>
+      <span>Escuela Superior de Cómputo · Instituto Politécnico Nacional</span>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
+
