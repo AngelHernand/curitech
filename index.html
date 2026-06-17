@@ -198,21 +198,9 @@
         </div>
         <p class="lead">Flujo de atención y resolución de incidentes en aplicaciones .NET, desde la recepción del ticket escalado por la mesa de ayuda L1 hasta el cierre formal y el reporte de servicio. Contempla la clasificación de severidad, la reutilización de soluciones documentadas y la validación en pruebas antes de producción.</p>
 
-        <div class="flow">
-          <span class="fterm fstart">Inicio</span>
-          <div class="fnode"><span class="flane">Mesa de ayuda L1</span><b>Reportar incidente y crear ticket</b></div>
-          <div class="fnode"><span class="flane">Mesa de ayuda L1</span><b>Escalar a equipo L2/L3</b></div>
-          <div class="fnode"><span class="flane">Equipo L2/L3</span><b>Clasificar severidad del incidente</b></div>
-          <div class="fdec"><span class="q">¿Incidente crítico?</span><div class="fbranch"><span class="yes"><em>Sí</em> → Activar protocolo de urgencia</span><span class="no"><em>No</em> → Cola estándar (SLA)</span></div></div>
-          <div class="fnode"><span class="flane">Equipo L2/L3</span><b>Diagnosticar causa raíz</b></div>
-          <div class="fdec"><span class="q">¿Solución conocida?</span><div class="fbranch"><span class="yes"><em>Sí</em> → Aplicar solución documentada</span><span class="no"><em>No</em> → Desarrollar nueva solución</span></div></div>
-          <div class="fnode"><span class="flane">Equipo L2/L3</span><b>Implementar corrección en pruebas</b></div>
-          <div class="fdec"><span class="q">¿Pruebas exitosas?</span><div class="fbranch"><span class="no"><em>No</em> → Volver a diagnosticar ↺</span><span class="yes"><em>Sí</em> → Desplegar</span></div></div>
-          <div class="fnode"><span class="flane">Administrador</span><b>Desplegar solución a producción</b></div>
-          <div class="fnode"><span class="flane">Administrador</span><b>Documentar en base de conocimiento</b></div>
-          <div class="fnode"><span class="flane">Administrador</span><b>Cerrar ticket y notificar al usuario</b></div>
-          <span class="fterm fend">Fin · Generar reporte de servicio</span>
-        </div>
+        <figure class="proc-svg">
+          <img src="diagrams/proceso1.svg" alt="Diagrama de flujo del Proceso 1 (carriles por rol)" loading="lazy">
+        </figure>
       </div>
 
       <!-- ---- PROCESO 2: MANTENIMIENTO ---- -->
@@ -225,21 +213,9 @@
         </div>
         <p class="lead">Ciclo completo de mantenimiento correctivo, preventivo y adaptativo del portafolio .NET. Integra un comité formal de control de cambios para garantizar la gobernanza, despliegue por pipeline CI/CD y monitoreo post-despliegue.</p>
 
-        <div class="flow">
-          <span class="fterm fstart">Inicio</span>
-          <div class="fnode"><span class="flane">Área solicitante</span><b>Identificar necesidad de cambio</b></div>
-          <div class="fnode"><span class="flane">Área solicitante</span><b>Registrar solicitud de cambio</b></div>
-          <div class="fnode"><span class="flane">Comité de cambios</span><b>Evaluar impacto y prioridad</b></div>
-          <div class="fdec"><span class="q">¿Requiere comité de cambios?</span><div class="fbranch"><span class="no"><em>No</em> → Proceder directamente</span><span class="yes"><em>Sí</em> → Someter a aprobación</span></div></div>
-          <div class="fdec"><span class="q">¿Cambio aprobado?</span><div class="fbranch"><span class="no"><em>No</em> → Documentar rechazo y cerrar</span><span class="yes"><em>Sí</em> → Continuar</span></div></div>
-          <div class="fnode"><span class="flane">Desarrollo .NET</span><b>Analizar código y dependencias</b></div>
-          <div class="fnode"><span class="flane">Desarrollo .NET</span><b>Diseñar e implementar el cambio</b></div>
-          <div class="fnode"><span class="flane">QA / Pruebas</span><b>Ejecutar pruebas unitarias y de regresión</b></div>
-          <div class="fdec"><span class="q">¿Pruebas exitosas?</span><div class="fbranch"><span class="no"><em>No</em> → Corregir defectos ↺</span><span class="yes"><em>Sí</em> → Desplegar</span></div></div>
-          <div class="fnode"><span class="flane">Operaciones</span><b>Desplegar a producción (CI/CD · Azure DevOps)</b></div>
-          <div class="fnode"><span class="flane">Operaciones</span><b>Monitoreo post-despliegue (24–72 h)</b></div>
-          <span class="fterm fend">Fin · Actualizar documentación técnica</span>
-        </div>
+        <figure class="proc-svg">
+          <img src="diagrams/proceso2.svg" alt="Diagrama de flujo del Proceso 2 (carriles por rol)" loading="lazy">
+        </figure>
       </div>
 
       <!-- ---- PROCESO 3: MODERNIZACIÓN ---- -->
@@ -252,30 +228,20 @@
         </div>
         <p class="lead">Modernización de aplicaciones legacy hacia .NET 8+, automatización de procesos y nuevas funcionalidades. Incorpora una prueba de concepto (POC) que reduce el riesgo de migración y un plan de rollback obligatorio para todo despliegue.</p>
 
-        <div class="flow">
-          <span class="fterm fstart">Inicio</span>
-          <div class="fnode"><span class="flane">Líder técnico / Arquitecto</span><b>Identificar candidato de migración</b></div>
-          <div class="fnode"><span class="flane">Líder técnico / Arquitecto</span><b>Evaluar viabilidad técnica</b></div>
-          <div class="fdec"><span class="q">¿Migración viable?</span><div class="fbranch"><span class="no"><em>No</em> → Plan alternativo de mantenimiento</span><span class="yes"><em>Sí</em> → Diseñar arquitectura</span></div></div>
-          <div class="fnode"><span class="flane">Desarrollo .NET</span><b>Diseñar arquitectura objetivo (.NET 8+)</b></div>
-          <div class="fnode"><span class="flane">Desarrollo .NET</span><b>Desarrollar POC (prueba de concepto)</b></div>
-          <div class="fdec"><span class="q">¿POC exitoso?</span><div class="fbranch"><span class="no"><em>No</em> → Rediseñar enfoque ↺</span><span class="yes"><em>Sí</em> → Migrar</span></div></div>
-          <div class="fnode"><span class="flane">Desarrollo .NET</span><b>Ejecutar migración completa</b></div>
-          <div class="fnode"><span class="flane">QA / Pruebas</span><b>Pruebas de regresión integrales + UAT</b></div>
-          <div class="fdec"><span class="q">¿Pruebas exitosas?</span><div class="fbranch"><span class="no"><em>No</em> → Corregir y re-probar ↺</span><span class="yes"><em>Sí</em> → Desplegar</span></div></div>
-          <div class="fnode"><span class="flane">Cliente / Equipo interno</span><b>Desplegar con plan de rollback (≤30 min)</b></div>
-          <div class="fnode"><span class="flane">Cliente / Equipo interno</span><b>Transferencia de conocimiento</b></div>
-          <span class="fterm fend">Fin · Cerrar hito en hoja de ruta</span>
-        </div>
+        <figure class="proc-svg">
+          <img src="diagrams/proceso3.svg" alt="Diagrama de flujo del Proceso 3 (carriles por rol)" loading="lazy">
+        </figure>
       </div>
 
     </div>
 
+    <p class="tscroll-hint">→ Desliza horizontalmente para ver el diagrama completo.</p>
     <div class="flow-legend">
-      <span class="li"><span class="sw s-step"></span> Actividad</span>
-      <span class="li"><span class="sw s-dec"></span> Punto de decisión</span>
-      <span class="li">↺ Reproceso / reintento</span>
-      <span class="li">La etiqueta superior indica el carril (rol responsable)</span>
+      <span class="li"><span class="sw" style="background:#e9f1fb;border-color:#5b9bd5"></span> Actividad</span>
+      <span class="li"><span class="sw" style="background:#e3f6ef;border-color:#43b89b"></span> Acción / solución</span>
+      <span class="li"><span class="sw" style="background:#fce3ec;border-color:#e08bb0"></span> Decisión</span>
+      <span class="li"><span class="sw" style="background:#fbe5e5;border-color:#d79a9a"></span> Reproceso ↺</span>
+      <span class="li">La etiqueta de cada carril indica el rol responsable</span>
     </div>
 
     <div class="note">

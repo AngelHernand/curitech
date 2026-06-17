@@ -915,6 +915,24 @@ caption, .tcap {
 .flow-legend .sw.s-step { background: #fff; border-left: 3px solid var(--blue); }
 .flow-legend .sw.s-dec { background: var(--crit-amber-bg); border-color: rgba(99,56,6,0.3); }
 
+/* SVG swimlane diagrams */
+.proc-svg {
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 10px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.proc-svg img {
+  display: block;
+  width: 100%;
+  min-width: 660px;
+  height: auto;
+}
+
 /* ============================================================
    FOOTER
    ============================================================ */
@@ -998,14 +1016,4 @@ caption, .tcap {
   .grid-2, .grid-4 { grid-template-columns: 1fr; }
   .bsc__cells { grid-template-columns: 1fr; }
   .dgrid { grid-template-columns: 1fr; }
-  .tscroll-hint { display: block; }
-  .hero__meta { gap: 22px 30px; }
-  .container { padding: 0 18px; }
-  .card { padding: 24px; }
-  .acc__head { padding: 17px 18px; }
-  .acc__content { padding: 4px 18px 22px; }
-}
-@media (prefers-reduced-motion: reduce) {
-  * { scroll-behavior: auto !important; }
-  .proc-panel.is-active { animation: none; }
-}
+  .tscrol
