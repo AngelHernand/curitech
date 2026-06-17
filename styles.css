@@ -333,6 +333,16 @@ strong { color: var(--navy-700); font-weight: 650; }
 .hero__meta .stat .k { font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 800; color: #fff; letter-spacing: -0.03em; line-height: 1; }
 .hero__meta .stat .l { font-size: 12.5px; color: #a9c0db; margin-top: 7px; letter-spacing: 0.02em; }
 
+.hero__team { margin-top: 34px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.14); }
+.hero__team-lbl { font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #9fc0e0; }
+.hero__team-names { display: flex; flex-wrap: wrap; gap: 10px 12px; margin-top: 13px; }
+.hero__team-names span {
+  font-size: 14px; font-weight: 500; color: #e7f0fa;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 100px; padding: 7px 16px;
+}
+
 /* ============================================================
    SECTIONS / LAYOUT
    ============================================================ */
@@ -1001,19 +1011,4 @@ caption, .tcap {
    RESPONSIVE
    ============================================================ */
 @media (max-width: 1080px) {
-  .nav__links { display: none; }
-  .nav__toggle { display: flex; }
-}
-@media (max-width: 920px) {
-  .grid-3 { grid-template-columns: 1fr; }
-  .grid-4 { grid-template-columns: repeat(2, 1fr); }
-  .split, .split--even { grid-template-columns: 1fr; }
-  .footer__top { grid-template-columns: 1fr; gap: 32px; }
-}
-@media (max-width: 680px) {
-  body { font-size: 16px; }
-  .section { padding: 64px 0; }
-  .grid-2, .grid-4 { grid-template-columns: 1fr; }
-  .bsc__cells { grid-template-columns: 1fr; }
-  .dgrid { grid-template-columns: 1fr; }
-  .tscrol
+  .nav__links { display: no
